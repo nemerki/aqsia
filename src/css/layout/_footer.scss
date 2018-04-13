@@ -1,0 +1,95 @@
+.footer {
+
+	&__logo {
+		margin: 4.4rem 0;
+	}
+
+	&__img {
+		
+	}
+
+	&__nav {
+		
+	}
+
+	&__nav-list {
+		list-style: none;
+	}
+
+	&__nav-item {
+
+
+		.fa {
+			color: $color-primary;
+			margin-right: .7rem;
+		}
+	}
+
+	&__link {
+		@include font($gsl, 2.5rem, $color-dark, 45px);
+
+		@include respondmax(lg) {
+			font-size: 1.8rem;
+		}
+
+		&:hover {
+			text-decoration: none;
+			color: $color-primary;
+		}
+	}
+
+	&__contact {
+		
+	}
+
+	&__contact-item {
+		display: flex;
+		align-items: center;
+		@include font($gsl, 2.5rem, $color-dark, 30px);
+
+		@include respondmax(lg) {
+			font-size: 1.8rem;
+		}
+
+		.fa {
+			margin-right: 2.5rem;
+			font-size: 2.5rem;
+			color: $color-primary;
+		}
+	}
+
+	&__phone {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__mail {
+		line-height: 65px;
+
+	}
+
+	&__adress {
+		
+	}
+
+	&__bottom {
+		border-top: 2px solid #E2E2E2;
+		padding: 1rem 0;
+		margin-top: 2rem;
+	}
+
+	&__author {
+		display: flex;
+		align-items: center;
+		img {
+			max-width: 2rem;
+			max-height: 3rem;
+		}	
+
+	}
+
+	&__author-text {
+		@include font($gs, 1.5rem, $color-dark-light, 18px);
+		margin-top: 1rem;
+	}
+}

@@ -1,0 +1,16 @@
+.input, .textarea {
+	@include font($gsl, 2rem, $color-dark-light, 23px);
+	border: none;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, .16);
+
+	&:focus {
+		outline: none;
+		box-shadow: 5px 5px 15px rgba(0, 0, 0, .16);
+		transform: scale(1.02) translateY(-3px);
+
+	}
+}
+
+.input {
+	height: 5rem;
+}

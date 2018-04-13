@@ -119,10 +119,187 @@ body {
      -moz-box-sizing: border-box;
           box-sizing: border-box; }
 
+.input, .textarea {
+  font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  color: #999999;
+  line-height: 23px;
+  border: none;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+     -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16); }
+  .input:focus, .textarea:focus {
+    outline: none;
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+       -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+    -webkit-transform: scale(1.02) translateY(-3px);
+       -moz-transform: scale(1.02) translateY(-3px);
+        -ms-transform: scale(1.02) translateY(-3px);
+         -o-transform: scale(1.02) translateY(-3px);
+            transform: scale(1.02) translateY(-3px); }
+
+.input {
+  height: 5rem; }
+
 @font-face {
   font-family: jaznb;
   src: url("../../fonts/jaznb.eot");
   src: url("../../fonts/jaznb.eot?#iefix") format("embedded-opentype"), url("../../fonts/jaznb.woff2") format("woff2"), url("../../fonts/jaznb.woff") format("woff"), url("../../fonts/jaznb.ttf") format("truetype"), url("../../fonts/jaznb.svg#jaznb") format("svg"); }
+
+@font-face {
+  font-family: GillSans;
+  src: url("../../fonts/GillSans.eot");
+  src: url("../../fonts/GillSans.eot?#iefix") format("embedded-opentype"), url("../../fonts/GillSans.woff2") format("woff2"), url("../../fonts/GillSans.woff") format("woff"), url("../../fonts/GillSans.ttf") format("truetype"), url("../../fonts/GillSans.svg#GillSans") format("svg"); }
+
+@font-face {
+  font-family: GillSans-Medium;
+  src: url("../../fonts/GillSans-Medium.eot");
+  src: url("../../fonts/GillSans-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/GillSans-Medium.woff2") format("woff2"), url("../../fonts/GillSans-Medium.woff") format("woff"), url("../../fonts/GillSans-Medium.ttf") format("truetype"), url("../../fonts/GillSans-Medium.svg#GillSans-Medium") format("svg"); }
+
+@font-face {
+  font-family: GillSans-Light;
+  src: url("../../fonts/GillSans-Light.eot");
+  src: url("../../fonts/GillSans-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/GillSans-Light.woff2") format("woff2"), url("../../fonts/GillSans-Light.woff") format("woff"), url("../../fonts/GillSans-Light.ttf") format("truetype"), url("../../fonts/GillSans-Light.svg#GillSans-Light") format("svg"); }
+
+.social .fa {
+  font-size: 2rem;
+  color: #1B75BC;
+  margin: 1.2rem; }
+
+.mybtn {
+  text-align: center; }
+  .mybtn__btn {
+    font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
+    color: #1B75BC;
+    line-height: 29px;
+    border: 2px solid #1B75BC;
+    background-color: transparent;
+    width: 21.8rem;
+    height: 4.4rem;
+    text-align: center;
+    padding-top: .8rem;
+    padding-bottom: .8rem; }
+    .mybtn__btn:hover {
+      background-color: #1B75BC;
+      color: #fff; }
+
+.footer__logo {
+  margin: 4.4rem 0; }
+
+.footer__nav-list {
+  list-style: none; }
+
+.footer__nav-item .fa {
+  color: #1B75BC;
+  margin-right: .7rem; }
+
+.footer__link {
+  font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #3E3E3E;
+  line-height: 45px; }
+  @media (max-width: 991px) {
+    .footer__link {
+      font-size: 1.8rem; } }
+  .footer__link:hover {
+    text-decoration: none;
+    color: #1B75BC; }
+
+.footer__contact-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #3E3E3E;
+  line-height: 30px; }
+  @media (max-width: 991px) {
+    .footer__contact-item {
+      font-size: 1.8rem; } }
+  .footer__contact-item .fa {
+    margin-right: 2.5rem;
+    font-size: 2.5rem;
+    color: #1B75BC; }
+
+.footer__phone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.footer__mail {
+  line-height: 65px; }
+
+.footer__bottom {
+  border-top: 2px solid #E2E2E2;
+  padding: 1rem 0;
+  margin-top: 2rem; }
+
+.footer__author {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .footer__author img {
+    max-width: 2rem;
+    max-height: 3rem; }
+
+.footer__author-text {
+  font-family: GillSans, Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  color: #999999;
+  line-height: 18px;
+  margin-top: 1rem; }
+
+.banner {
+  padding-bottom: 6rem;
+  background-image: url("../../img/Mask Group 15.png");
+  -moz-background-size: cover;
+       background-size: cover;
+  background-position: top left; }
+  .banner__text {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 30px;
+    max-width: 58.8rem;
+    padding-top: 9.8rem;
+    padding-bottom: 5.7rem;
+    text-align: center; }
+
+.contact__map {
+  width: 100%;
+  height: 411px; }
+
+.contact__tittle {
+  font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  color: #1B75BC;
+  line-height: 36px;
+  text-align: center; }
 
 /* ==========================================================================
    Helper classes

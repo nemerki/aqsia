@@ -12,7 +12,7 @@ var minifyCSS=require('gulp-minify-css');
 var rename = require("gulp-rename"); //minify elediyimiz dosyanın adını değiştirmek için kullandık bunu
 var concat = require('gulp-concat'); //tüm js dosyalarını birleştirip all.js diye bir js dosyasında toplamak için
 var flatten = require('gulp-flatten'); //fondaki klasör altında olan fontları tek klasöre toplamak için
-
+var browserSync = require('browser-sync').create(); //otomatik yenileme için kaydet diyince browserı kendi yeniliyor
 
 var path = {
     build: { //Burada işlemden sonra bitmiş dosyaların nereye koyulacağını gösteriyoruz

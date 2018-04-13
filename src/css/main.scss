@@ -9,11 +9,16 @@
 @import "base/utilities";
 @import "base/fonts";
 
-@import "components/about"; 
+@import "components/about";
+@import "components/social"; 
+@import "components/button";
 
 @import "layout/footer";
 @import "layout/header";
 @import "layout/navigation";
+@import "layout/banner";
+
+@import "page/contact";
 
 
 
