@@ -1,0 +1,19 @@
+.breadcrumb {
+	background-color: transparent;
+
+	.breadcrumb-item.active {
+		@include font($gs, 1.6rem, $color-dark);
+	}
+
+	.breadcrumb-item+.breadcrumb-item::before {
+		content: "\003e"; 
+		color: $color-primary;
+		font-size: 1rem !important;
+		
+	}
+
+
+	a {
+		@include font($gs, 1.6rem, $color-dark-light);
+	}
+}

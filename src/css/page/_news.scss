@@ -1,0 +1,93 @@
+.news {
+	margin-bottom: 15rem;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		select {
+			height: 38px !important;
+			width: 98px;
+			font-size: 1.8rem;
+
+			&:focus {
+				
+				box-shadow: none;
+			}
+		}
+
+		option {
+			@include font($gs, 1.8rem, $color-dark, 22px);
+		}
+	}
+
+	&__content {
+		margin-top: 4rem;
+	}
+
+	&__small {
+		
+		background-size: cover;
+		padding-top: 50%;
+
+
+	}
+	
+	&__small-img {
+		width: 100%;
+
+	}
+
+
+	&__medium {
+		
+		background-image: url('../../img/Mask Group 13.png');
+		background-size: cover;
+		padding-top: 100%;
+
+		
+	}
+
+	&__medium-img {
+		width: 100%;
+
+	}
+
+	&__larg {
+		background-image: url('../../img/Mask Group 7.png');
+		background-size: cover;
+		padding-top: 50%;
+
+		@include respondmax(lg) {
+			padding-top: 100%;
+		}
+	}
+
+
+
+	&__overlay {
+		position: relative;
+		bottom: 0;
+		padding: 1.5rem 1.1rem 0 1.5rem;
+		width: 100%;
+		background-image: linear-gradient(to bottom, transparent, rgba(39, 170, 225, 0.9));
+
+
+	}
+
+	&__tittle {
+		@include font($gs, 1.4rem, $color-white, 18px);
+
+
+		
+	}
+
+	&__subtittle {
+		@include font($gs, 1rem, $color-white, 14px);
+	}
+
+	&__date {
+		@include font($gsi, 1rem, $color-white, 12px);
+	}
+}

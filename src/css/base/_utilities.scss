@@ -2,6 +2,7 @@
 	@include font($gsl, 2rem, $color-dark-light, 23px);
 	border: none;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, .16);
+	margin-bottom: 2.7rem;
 
 	&:focus {
 		outline: none;
