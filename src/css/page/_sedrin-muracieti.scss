@@ -1,0 +1,59 @@
+.sedrin-muracieti {
+	padding-bottom: 9rem;
+
+	&__content {
+		@include clearfix;
+		@include font($gsl, 2rem, $color-dark, 3rem);
+		margin-top: 6rem;
+	}
+
+	&__tittle {
+		@include font($gs, 3rem, $color-primary, 3.6rem);
+		margin-bottom: 2rem;
+	}
+
+
+
+
+	&__img-container {
+		float: right;
+		width: 50%;
+		margin-left: 6rem;
+		margin-top: 55px;
+		margin-bottom: 7rem;
+
+		@include respondmax(md) {
+			width: 90%;
+			float: none;
+		}
+	}
+
+	&__img {
+
+		position: relative;
+		display: inline-block;
+
+
+		img {
+			max-width: 39rem;
+			max-height: 47rem;
+
+			@include respondmax(sm) {
+				max-width: 20rem;
+			}
+		}
+
+		&:before {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: -55px; 
+			left: 55px;
+			border: 1px solid $color-border;
+			z-index: -1;
+		}
+	}
+}
+

@@ -294,6 +294,18 @@ body {
     line-height: 18px;
     margin-top: 1rem; }
 
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.navbar-toggle {
+  z-index: 1; }
+
 .banner {
   padding-bottom: 6rem;
   background-image: url("../../img/Mask Group 15.png");
@@ -418,6 +430,132 @@ body {
     font-size: 1rem;
     color: #fff;
     line-height: 12px; }
+
+.sedrin-muracieti {
+  padding-bottom: 9rem; }
+  .sedrin-muracieti__content {
+    font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 3rem;
+    margin-top: 6rem; }
+    .sedrin-muracieti__content::after {
+      content: "";
+      display: table;
+      clear: both; }
+  .sedrin-muracieti__tittle {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    color: #1B75BC;
+    line-height: 3.6rem;
+    margin-bottom: 2rem; }
+  .sedrin-muracieti__img-container {
+    float: right;
+    width: 50%;
+    margin-left: 6rem;
+    margin-top: 55px;
+    margin-bottom: 7rem; }
+    @media (max-width: 767px) {
+      .sedrin-muracieti__img-container {
+        width: 90%;
+        float: none; } }
+  .sedrin-muracieti__img {
+    position: relative;
+    display: inline-block; }
+    .sedrin-muracieti__img img {
+      max-width: 39rem;
+      max-height: 47rem; }
+      @media (max-width: 575px) {
+        .sedrin-muracieti__img img {
+          max-width: 20rem; } }
+    .sedrin-muracieti__img:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -55px;
+      left: 55px;
+      border: 1px solid #CBCBCB;
+      z-index: -1; }
+
+.aktiv-uzvler {
+  padding-bottom: 15rem; }
+  @media (max-width: 575px) {
+    .aktiv-uzvler {
+      padding-bottom: 5rem; } }
+  .aktiv-uzvler__img {
+    position: relative;
+    margin: 5rem 0 0;
+    width: 73%; }
+    @media (max-width: 767px) {
+      .aktiv-uzvler__img {
+        width: 100%; } }
+    @media (max-width: 575px) {
+      .aktiv-uzvler__img {
+        width: 90%; } }
+    .aktiv-uzvler__img:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -24px;
+      left: 24px;
+      border: 1px solid #CBCBCB;
+      z-index: 1; }
+    .aktiv-uzvler__img img {
+      z-index: 2;
+      position: relative; }
+  .aktiv-uzvler__name {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    color: #3E3E3E;
+    line-height: 3rem;
+    text-align: center;
+    margin-top: 2rem; }
+  .aktiv-uzvler__sub {
+    font-family: GillSans-Italic, Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #3E3E3E;
+    line-height: 3rem;
+    text-align: center; }
+  .aktiv-uzvler .modal-content {
+    padding-bottom: 4rem; }
+  .aktiv-uzvler .modal-header {
+    border-bottom: none; }
+  .aktiv-uzvler .modal-dialog {
+    max-width: 65rem; }
+  .aktiv-uzvler .modal__text {
+    font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #3E3E3E;
+    line-height: 2rem;
+    padding: 4rem;
+    text-align: center; }
+  .aktiv-uzvler .modal__img {
+    position: relative;
+    max-width: 13rem;
+    margin: 3rem auto 0; }
+    @media (max-width: 767px) {
+      .aktiv-uzvler .modal__img {
+        width: 100%; } }
+    @media (max-width: 575px) {
+      .aktiv-uzvler .modal__img {
+        width: 90%; } }
+    .aktiv-uzvler .modal__img:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -24px;
+      left: 24px;
+      border: 1px solid #CBCBCB;
+      z-index: 1; }
+    .aktiv-uzvler .modal__img img {
+      z-index: 2;
+      position: relative; }
 
 /* ==========================================================================
    Helper classes
