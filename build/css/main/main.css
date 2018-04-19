@@ -123,6 +123,14 @@ body {
   .container {
     max-width: 1200px; } }
 
+.page-tittle {
+  font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  color: #1B75BC;
+  line-height: 36px;
+  text-align: center;
+  margin: 4.5rem 0; }
+
 .input, .textarea {
   font-family: GillSans-Light, Helvetica, Arial, sans-serif;
   font-size: 2rem;
@@ -198,7 +206,9 @@ body {
       color: #fff; }
 
 .breadcrumb {
-  background-color: transparent; }
+  background-color: transparent;
+  padding-bottom: 0;
+  margin-bottom: 0; }
   .breadcrumb .breadcrumb-item.active {
     font-family: GillSans, Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
@@ -556,6 +566,25 @@ body {
     .aktiv-uzvler .modal__img img {
       z-index: 2;
       position: relative; }
+  .aktiv-uzvler .modal .close {
+    font-size: 3rem; }
+
+.sahibkar-nece-olum {
+  padding-bottom: 7rem;
+  background-image: url("../../img/si.lt.png"), url("../../img/Path 98.png");
+  background-position: 95% 95%, center center;
+  background-repeat: no-repeat, no-repeat;
+  -moz-background-size: auto, 100%;
+       background-size: auto, 100%; }
+  .sahibkar-nece-olum__text {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 30px;
+    text-align: center; }
+
+.magaza-nece-qurum__video {
+  margin-bottom: 5rem; }
 
 /* ==========================================================================
    Helper classes

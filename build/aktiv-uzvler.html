@@ -18,6 +18,12 @@
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="libs/slick-carousel/slick/slick-theme.css"/>
 
+     <!-- Add the owl-carusel if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.carousel.min.css">
+
+      <!-- Add the owl-carusel theme if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="libs/owl.carousel/dist/assets/owl.theme.default.min.css">
+
     <link rel="stylesheet" type="text/css" href="libs/components-font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
@@ -60,7 +66,7 @@
        <ul class="dropdown-menu">
         <li class="dropdown-item" ><a href="#">Üzvlüyün qaydaları</a></li>
         <li class="dropdown-item" ><a href="#">Üzvlük anketi</a></li>
-        <li class="dropdown-item" ><a href="#">Aktiv üzvlər</a></li>
+        <li class="dropdown-item" ><a href="aktiv-uzvler.html">Aktiv üzvlər</a></li>
         <li class="dropdown-item" ><a href="#">Milli tərəfdaşlar</a></li>
         <li class="dropdown-item" ><a href="#">Beynəlxalq tərəfdaşlar</a></li>
         <li class="dropdown-item" ><a href="#">Hesabatlar</a></li>
@@ -97,8 +103,8 @@
  <ul class="dropdown-menu">
   <li class="dropdown-item" ><a href="#">Sahibkar qadınları tanıyaq</a></li>
   <li class="dropdown-item" ><a href="#">Uğurlu sahibkar qadınlar</a></li>
-  <li class="dropdown-item" ><a href="#">Sahibkar necə olum?</a></li>
-  <li class="dropdown-item" ><a href="#">Virtual mağaza necə qurum?</a></li>
+  <li class="dropdown-item" ><a href="sahibkar-nece-olum.html">Sahibkar necə olum?</a></li>
+  <li class="dropdown-item" ><a href="magaza-nece-qurum.html">Virtual mağaza necə qurum?</a></li>
   <li class="dropdown-item" ><a href="#">Biznesi necə inkişaf etdirim?</a></li>
   <li class="dropdown-item" ><a href="#">Hesabat</a></li>
 </ul>
@@ -181,33 +187,39 @@
 				<p class="aktiv-uzvler__sub">Aktiv üzv</p>
 			</div>
 
-			<!-- Modal -->
-			<div class="modal fade" id="aktiv-uzvlerModal" tabindex="-1" role="dialog" aria-labelledby="aktiv-uzvlerModalTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
+		</div>
 
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<div class="modal__img">
-								<img src="img/Mask Group 57@2x.png" class="img-fluid" alt="">
-							</div>
-							<h2 class="aktiv-uzvler__name">Aynur Elıyev</h2>
-							<h3 class="aktiv-uzvler__sub">Aktiv üzv</h3>
-							<p class="modal__text"> "Sahibkar adı ilə qeydiyyatdan keçmək sahibkarlıq demək deyil. Etiraf etmək lazımdır ki, bizim biznes ledilərimiz var. O ledilər sahibkarlıq sahəsində müəyyən işlər görürlər. Ancaq dünya üzrə sahibkar ledilərimiz yox səviyyəsindədir. Ümid edirəm ki, yeni yaranan assosiasiya sayəsində sahibkar qadınlarımızın adı beynəlxalq səviyyədə tanınar”. Həmsöhbətimizin sözlərinə görə, Azərbaycanda fəaliyyət göstərən qadın sahibkarlar, əslində, xırda sahibkarlardır. Bu hal bizdə yeni bir tendensiyadır: "Bu baxımdan yaxın müddət ərzində qadın milyonerlərimizin sayının artacağını gözləmək düzgün deyil. Arzu edirəm ki, qadınlarımız kiçik və orta sahibkarlıqdan böyük biznesə doğru inkişaf etsinlər. </p>
-							<div class="mybtn">
-								<a href="#" class="btn mybtn__btn" title="">Gönder</a>
-							</div>
-						</div>
-						
+		
+
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="aktiv-uzvlerModal" tabindex="-1" role="dialog" aria-labelledby="aktiv-uzvlerModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
+					<div class="modal-body">
+						<div class="modal__img">
+							<img src="img/Mask Group 57@2x.png" class="img-fluid" alt="">
+						</div>
+						<h2 class="aktiv-uzvler__name">Aynur Elıyev</h2>
+						<h3 class="aktiv-uzvler__sub">Aktiv üzv</h3>
+						<p class="modal__text"> "Sahibkar adı ilə qeydiyyatdan keçmək sahibkarlıq demək deyil. Etiraf etmək lazımdır ki, bizim biznes ledilərimiz var. O ledilər sahibkarlıq sahəsində müəyyən işlər görürlər. Ancaq dünya üzrə sahibkar ledilərimiz yox səviyyəsindədir. Ümid edirəm ki, yeni yaranan assosiasiya sayəsində sahibkar qadınlarımızın adı beynəlxalq səviyyədə tanınar”. Həmsöhbətimizin sözlərinə görə, Azərbaycanda fəaliyyət göstərən qadın sahibkarlar, əslində, xırda sahibkarlardır. Bu hal bizdə yeni bir tendensiyadır: "Bu baxımdan yaxın müddət ərzində qadın milyonerlərimizin sayının artacağını gözləmək düzgün deyil. Arzu edirəm ki, qadınlarımız kiçik və orta sahibkarlıqdan böyük biznesə doğru inkişaf etsinlər. </p>
+						<div class="mybtn">
+							<a href="#" class="btn mybtn__btn" title="">Mağazanı gör</a>
+						</div>
+					</div>
+
 				</div>
 			</div>
-
 		</div>
+
+
 		
 	</div>
 </section>
@@ -287,6 +299,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="libs/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
 <script src="libs/slick-carousel/slick/slick.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="libs/owl.carousel/dist/owl.carousel.min.js" type="text/javascript" charset="utf-8" async defer></script>
 
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGlDotzPyE2OLkfvIfrXrXu2uNUA-_e_U&callback=initMap"></script>
