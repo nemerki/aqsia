@@ -79,7 +79,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*! find me  github  https://github.com/nemerki */
+/*! WEBCODER - http://webcoder.az/ mehemmed memmedli  16 Aprel 2018  https://github.com/nemerki */
 /*
 -sm
 -m
@@ -122,14 +122,6 @@ body {
 @media (min-width: 1260px) {
   .container {
     max-width: 1200px; } }
-
-.page-tittle {
-  font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
-  font-size: 3rem;
-  color: #1B75BC;
-  line-height: 36px;
-  text-align: center;
-  margin: 4.5rem 0; }
 
 .input, .textarea {
   font-family: GillSans-Light, Helvetica, Arial, sans-serif;
@@ -368,6 +360,71 @@ body {
 .mymodal .close {
   font-size: 3rem; }
 
+.page-tittle {
+  font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  color: #1B75BC;
+  line-height: 36px;
+  text-align: center;
+  margin: 4.5rem 0; }
+
+.myCard {
+  margin-bottom: 6rem;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.16);
+     -moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.16);
+  padding: 2.5rem 0 2.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  @media (max-width: 575px) {
+    .myCard {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  .myCard__img {
+    max-height: 20rem; }
+  .myCard__tittle {
+    font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    color: #1B75BC;
+    line-height: 16px; }
+  .myCard__text {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #3E3E3E;
+    line-height: 2rem;
+    padding: 1rem 0; }
+  .myCard__footer {
+    font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #D2D2D2;
+    line-height: 17px; }
+  .myCard__media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
 .footer {
   border-top: 2px solid #E2E2E2; }
   .footer__logo {
@@ -583,6 +640,12 @@ body {
     color: #fff;
     line-height: 12px; }
 
+.news-detail__img-small {
+  padding: 2rem; }
+
+.news-detail__img-small {
+  padding: 2rem; }
+
 .sedrin-muracieti {
   padding-bottom: 9rem; }
   .sedrin-muracieti__content {
@@ -708,6 +771,13 @@ body {
     font-size: 2rem;
     color: #3E3E3E;
     line-height: 30px; }
+
+.olke-daxilinde {
+  padding-bottom: 4rem; }
+  .olke-daxilinde__content {
+    margin-top: 5rem; }
+    .olke-daxilinde__content a:hover {
+      text-decoration: none; }
 
 /* ==========================================================================
    Helper classes

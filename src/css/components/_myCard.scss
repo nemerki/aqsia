@@ -1,0 +1,41 @@
+.myCard{
+	margin-bottom: 6rem;
+	box-shadow: 0 0 25px  rgba(0,0,0,0.16);
+	padding: 2.5rem 0 2.5rem 1rem;
+	display: flex;
+	flex-direction: row;
+
+	@include respondmax(sm) {
+		flex-direction: column;
+	}
+	&__img {
+		max-height: 20rem;
+	}
+
+	&__body {
+
+	}
+
+	&__tittle {
+		@include font($gsm, 1.4rem, $color-primary, 16px);
+	}
+
+	&__text {
+		@include font($gs, 1rem, $color-dark, 2rem);
+		padding: 1rem 0;
+	}
+
+	&__footer {
+		@include font($gsl, 1.5rem, #D2D2D2,  17px);
+
+	}
+
+	&__media {
+		display: flex;
+		align-items: center;
+		
+	}
+
+
+
+}
