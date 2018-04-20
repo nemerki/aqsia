@@ -1,15 +1,28 @@
-.aktiv-uzvler {
-	padding-bottom: 15rem;
 
-	@include respondmax(sm) {
-		padding-bottom: 5rem;
+.mymodal {
+	&-content {
+		padding-bottom: 4rem;
+	}
+
+	&-header {
+		border-bottom: none;
+	}
+
+	&-dialog {
+		max-width: 65rem;
+	}
+
+	&__text {
+		@include font($gsl, 1.5rem, $color-dark, 2rem);
+		padding: 4rem;
+		text-align: center;
 	}
 
 	&__img {
 
 		position: relative;
-		margin: 5rem auto 0;
-		width: 73%;
+		max-width: 13rem;
+		margin: 3rem auto 0;
 
 		@include respondmax(md) {
 			width: 100%;
@@ -37,18 +50,7 @@
 		}
 	}
 
-	&__name {
-		@include font($gs, 3rem, $color-dark, 3rem);
-		text-align: center;
-		margin-top: 2rem;
+	.close {
+		font-size: 3rem;
 	}
-
-	&__sub {
-		@include font($gsi, 2.5rem, $color-dark, 3rem);
-		text-align: center;
-	}
-
-
 }
-
-

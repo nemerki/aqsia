@@ -1,0 +1,27 @@
+.page-top {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__list {
+		display: flex;
+	}
+
+	select {
+		height: 38px !important;
+		width: 100%;
+		font-size: 1.8rem;
+		margin-left: 2.4rem;
+
+		&:focus {
+			
+			box-shadow: none;
+		}
+	}
+
+	option {
+		@include font($gs, 1.8rem, $color-dark, 22px);
+	}
+
+}

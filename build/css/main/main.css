@@ -207,8 +207,7 @@ body {
 
 .breadcrumb {
   background-color: transparent;
-  padding-bottom: 0;
-  margin-bottom: 0; }
+  padding-bottom: 0; }
   .breadcrumb .breadcrumb-item.active {
     font-family: GillSans, Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
@@ -221,6 +220,153 @@ body {
     font-family: GillSans, Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
     color: #999999; }
+
+.pagination {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10rem; }
+  .pagination .page-item {
+    margin-right: 2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .pagination .page-link {
+    border: none;
+    font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
+    color: #3E3E3E;
+    line-height: 2.9rem; }
+    .pagination .page-link:hover {
+      background-color: transparent;
+      color: #1B75BC; }
+  .pagination .page-item.active .page-link {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 3.2rem;
+    color: #1B75BC;
+    line-height: 3.9rem;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #1B75BC;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .pagination .fa {
+    font-size: 4.5rem;
+    color: #1B75BC; }
+
+.page-bg {
+  background-image: url("../../img/si.lt.png"), url("../../img/Path 98.png");
+  background-position: 95% 95%, center center;
+  background-repeat: no-repeat, no-repeat;
+  -moz-background-size: auto, 100%;
+       background-size: auto, 100%; }
+
+.page-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-top__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .page-top select {
+    height: 38px !important;
+    width: 100%;
+    font-size: 1.8rem;
+    margin-left: 2.4rem; }
+    .page-top select:focus {
+      -webkit-box-shadow: none;
+         -moz-box-shadow: none;
+              box-shadow: none; }
+  .page-top option {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    color: #3E3E3E;
+    line-height: 22px; }
+
+.mymodal-content {
+  padding-bottom: 4rem; }
+
+.mymodal-header {
+  border-bottom: none; }
+
+.mymodal-dialog {
+  max-width: 65rem; }
+
+.mymodal__text {
+  font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  color: #3E3E3E;
+  line-height: 2rem;
+  padding: 4rem;
+  text-align: center; }
+
+.mymodal__img {
+  position: relative;
+  max-width: 13rem;
+  margin: 3rem auto 0; }
+  @media (max-width: 767px) {
+    .mymodal__img {
+      width: 100%; } }
+  @media (max-width: 575px) {
+    .mymodal__img {
+      width: 90%; } }
+  .mymodal__img:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -24px;
+    left: 24px;
+    border: 1px solid #CBCBCB;
+    z-index: 1; }
+  .mymodal__img img {
+    z-index: 2;
+    position: relative; }
+
+.mymodal .close {
+  font-size: 3rem; }
 
 .footer {
   border-top: 2px solid #E2E2E2; }
@@ -332,37 +478,33 @@ body {
     padding-bottom: 5.7rem;
     text-align: center; }
 
-.contact__map {
-  width: 100%;
-  height: 411px;
-  margin-bottom: 6.5rem; }
-
-.contact__tittle {
-  font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
-  font-size: 3rem;
-  color: #1B75BC;
-  line-height: 36px;
-  text-align: center;
-  margin-bottom: 2.7rem; }
-
-.contact .mybtn {
-  margin-top: 4.8rem; }
-  @media (max-width: 767px) {
-    .contact .mybtn {
-      margin-bottom: 3rem; } }
-
-.contact__info .social {
-  margin-top: 5.6rem; }
-  .contact__info .social .fa {
-    margin-left: 0;
-    margin-right: 4rem;
-    font-size: 3.5rem; }
-
-.contact .footer__bottom {
-  margin-top: 7rem; }
+.contact {
+  padding-bottom: 7rem; }
+  .contact__map {
+    width: 100%;
+    height: 411px;
+    margin-bottom: 6.5rem; }
+  .contact__tittle {
+    font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    color: #1B75BC;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 2.7rem; }
+  .contact .mybtn {
+    margin-top: 4.8rem; }
+    @media (max-width: 767px) {
+      .contact .mybtn {
+        margin-bottom: 3rem; } }
+  .contact__info .social {
+    margin-top: 5.6rem; }
+    .contact__info .social .fa {
+      margin-left: 0;
+      margin-right: 4rem;
+      font-size: 3.5rem; }
 
 .news {
-  margin-bottom: 15rem; }
+  padding-bottom: 15rem; }
   .news__top {
     display: -webkit-box;
     display: -webkit-flex;
@@ -496,7 +638,7 @@ body {
       padding-bottom: 5rem; } }
   .aktiv-uzvler__img {
     position: relative;
-    margin: 5rem 0 0;
+    margin: 5rem auto 0;
     width: 73%; }
     @media (max-width: 767px) {
       .aktiv-uzvler__img {
@@ -530,52 +672,9 @@ body {
     color: #3E3E3E;
     line-height: 3rem;
     text-align: center; }
-  .aktiv-uzvler .modal-content {
-    padding-bottom: 4rem; }
-  .aktiv-uzvler .modal-header {
-    border-bottom: none; }
-  .aktiv-uzvler .modal-dialog {
-    max-width: 65rem; }
-  .aktiv-uzvler .modal__text {
-    font-family: GillSans-Light, Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
-    color: #3E3E3E;
-    line-height: 2rem;
-    padding: 4rem;
-    text-align: center; }
-  .aktiv-uzvler .modal__img {
-    position: relative;
-    max-width: 13rem;
-    margin: 3rem auto 0; }
-    @media (max-width: 767px) {
-      .aktiv-uzvler .modal__img {
-        width: 100%; } }
-    @media (max-width: 575px) {
-      .aktiv-uzvler .modal__img {
-        width: 90%; } }
-    .aktiv-uzvler .modal__img:before {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: -24px;
-      left: 24px;
-      border: 1px solid #CBCBCB;
-      z-index: 1; }
-    .aktiv-uzvler .modal__img img {
-      z-index: 2;
-      position: relative; }
-  .aktiv-uzvler .modal .close {
-    font-size: 3rem; }
 
 .sahibkar-nece-olum {
-  padding-bottom: 7rem;
-  background-image: url("../../img/si.lt.png"), url("../../img/Path 98.png");
-  background-position: 95% 95%, center center;
-  background-repeat: no-repeat, no-repeat;
-  -moz-background-size: auto, 100%;
-       background-size: auto, 100%; }
+  padding-bottom: 7rem; }
   .sahibkar-nece-olum__text {
     font-family: GillSans, Helvetica, Arial, sans-serif;
     font-size: 2rem;
@@ -583,8 +682,24 @@ body {
     line-height: 30px;
     text-align: center; }
 
-.magaza-nece-qurum__video {
-  margin-bottom: 5rem; }
+.magaza-nece-qurum {
+  padding-bottom: 10rem; }
+  .magaza-nece-qurum__video {
+    margin-bottom: 5rem; }
+
+.sahibkar-qadinlari-taniyaq {
+  padding-bottom: 10rem; }
+
+.meqsed {
+  padding-bottom: 10rem; }
+  .meqsed__content {
+    font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 3rem; }
+  .meqsed__img-container {
+    float: right;
+    width: 50%; }
 
 /* ==========================================================================
    Helper classes
