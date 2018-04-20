@@ -701,6 +701,14 @@ body {
     float: right;
     width: 50%; }
 
+.xaricde-ixtisasartirma {
+  padding-bottom: 15rem; }
+  .xaricde-ixtisasartirma__text {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 30px; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

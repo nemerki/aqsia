@@ -1,0 +1,7 @@
+.xaricde-ixtisasartirma {
+	padding-bottom: 15rem;
+
+	&__text {
+		@include font($gs, 2rem, $color-dark, 30px);
+	}
+}
