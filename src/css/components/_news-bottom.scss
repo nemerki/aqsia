@@ -1,0 +1,16 @@
+.news-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 6rem 0;
+
+	&__date {
+		@include font($gs, 2rem, $color-mute, 2.4rem);
+	}
+
+	.social {
+		.fa {
+			color: $color-mute;
+		}
+	}
+}

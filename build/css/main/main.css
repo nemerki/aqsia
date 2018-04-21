@@ -123,6 +123,19 @@ body {
   .container {
     max-width: 1200px; } }
 
+.paragraph-left {
+  font-family: GillSans, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  color: #3E3E3E;
+  line-height: 30px; }
+
+.paragraph-center {
+  font-family: GillSans, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  color: #3E3E3E;
+  line-height: 30px;
+  text-align: center; }
+
 .input, .textarea {
   font-family: GillSans-Light, Helvetica, Arial, sans-serif;
   font-size: 2rem;
@@ -424,6 +437,31 @@ body {
        -moz-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+
+.news-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6rem 0; }
+  .news-bottom__date {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #C9C9C9;
+    line-height: 2.4rem; }
+  .news-bottom .social .fa {
+    color: #C9C9C9; }
 
 .footer {
   border-top: 2px solid #E2E2E2; }
@@ -777,6 +815,20 @@ body {
   .olke-daxilinde__content {
     margin-top: 5rem; }
     .olke-daxilinde__content a:hover {
+      text-decoration: none; }
+
+.olke-xaricinde {
+  padding-bottom: 4rem; }
+  .olke-xaricinde__content {
+    margin-top: 5rem; }
+    .olke-xaricinde__content a:hover {
+      text-decoration: none; }
+
+.mediadabiz {
+  padding-bottom: 4rem; }
+  .mediadabiz__content {
+    margin-top: 5rem; }
+    .mediadabiz__content a:hover {
       text-decoration: none; }
 
 /* ==========================================================================

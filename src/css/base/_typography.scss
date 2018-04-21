@@ -1,0 +1,8 @@
+.paragraph-left {
+	@include font($gs, 2rem, $color-dark, 30px);
+}
+
+.paragraph-center {
+	@include font($gs, 2rem, $color-dark, 30px);
+	text-align: center;
+}
