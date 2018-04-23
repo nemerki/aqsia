@@ -1,0 +1,14 @@
+.terefdaslar {
+
+	.card {
+		max-height: 376px;
+	}
+
+	.card-title {
+		@include font ($gsm, 1.4rem, $color-primary, 16px);
+		text-align: center;
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+	}
+
+}

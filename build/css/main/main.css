@@ -844,6 +844,18 @@ body {
 .biznes-inkisaf {
   padding-bottom: 6rem; }
 
+.terefdaslar .card {
+  max-height: 376px; }
+
+.terefdaslar .card-title {
+  font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  color: #1B75BC;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
