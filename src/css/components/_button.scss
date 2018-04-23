@@ -1,7 +1,7 @@
 .mybtn {
 text-align: center;
 	&__btn{
-		@include font($gsm, 2.4rem, $color-primary, 29px);
+		@include font($gsm, 2.4rem, $color-primary, 23px);
 		border: 2px solid $color-primary;
 		background-color: transparent;
 		width: 21.8rem;

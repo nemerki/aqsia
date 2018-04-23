@@ -198,7 +198,7 @@ body {
     font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
     font-size: 2.4rem;
     color: #1B75BC;
-    line-height: 29px;
+    line-height: 23px;
     border: 2px solid #1B75BC;
     background-color: transparent;
     width: 21.8rem;
@@ -830,6 +830,14 @@ body {
     margin-top: 5rem; }
     .mediadabiz__content a:hover {
       text-decoration: none; }
+
+.xidmetlerimiz {
+  padding-bottom: 4.5rem; }
+  .xidmetlerimiz .mybtn {
+    margin-top: 6rem; }
+    .xidmetlerimiz .mybtn__btn {
+      margin-right: 2rem;
+      font-size: 2.1rem; }
 
 /* ==========================================================================
    Helper classes
