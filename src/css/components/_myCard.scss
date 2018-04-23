@@ -4,6 +4,7 @@
 	padding: 2.5rem 0 2.5rem 1rem;
 	display: flex;
 	flex-direction: row;
+	background-color: #fff;
 
 	@include respondmax(sm) {
 		flex-direction: column;

@@ -399,7 +399,8 @@ body {
      -moz-box-orient: horizontal;
      -moz-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  background-color: #fff; }
   @media (max-width: 575px) {
     .myCard {
       -webkit-box-orient: vertical;
