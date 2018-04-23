@@ -1,0 +1,9 @@
+.video-tedris {
+	padding-bottom: 6rem;
+
+	&__tittle {
+		@include font($gsm, 3rem, $color-primary, 36px);
+		text-align: center;
+		margin: 3.5rem 0 2.4rem;
+	}
+}
