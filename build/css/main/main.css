@@ -1,9 +1,4 @@
-/* HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/   */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/*! WEBCODER - http://webcoder.az/ Mehemmed Memmedli  15 Aprel 2018  https://github.com/nemerki */
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -79,14 +74,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*! WEBCODER - http://webcoder.az/ mehemmed memmedli  16 Aprel 2018  https://github.com/nemerki */
-/*
--sm
--m
--lg
--xl
-
-*/
+/*! WEBCODER - http://webcoder.az/ Mehemmed Memmedli  15 Aprel 2018  https://github.com/nemerki */
 * {
   -webkit-box-sizing: inherit;
      -moz-box-sizing: inherit;
@@ -184,6 +172,48 @@ body {
   font-family: GillSans-Italic;
   src: url("../../fonts/GillSans-Italic.eot");
   src: url("../../fonts/GillSans-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/GillSans-Italic.woff2") format("woff2"), url("../../fonts/GillSans-Italic.woff") format("woff"), url("../../fonts/GillSans-Italic.ttf") format("truetype"), url("../../fonts/GillSans-Italic.svg#GillSans-Italic") format("svg"); }
+
+/*
+    Flaticon icon font: Flaticon
+    Creation date: 24/04/2018 10:16
+    */
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../fonts/Flaticon.eot");
+  src: url("../../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../../fonts/Flaticon.woff") format("woff"), url("../../fonts/Flaticon.ttf") format("truetype"), url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../../fonts/Flaticon.svg#Flaticon") format("svg"); } }
+
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+.flaticon-talking:before {
+  content: "\f100"; }
+
+.flaticon-chat-1:before {
+  content: "\f101"; }
+
+.flaticon-newspaper:before {
+  content: "\f102"; }
+
+.flaticon-chat:before {
+  content: "\f103"; }
 
 .social .fa {
   font-size: 2rem;
@@ -466,6 +496,137 @@ body {
     line-height: 2.4rem; }
   .news-bottom .social .fa {
     color: #C9C9C9; }
+
+.tedrisCard {
+  margin-bottom: 7rem; }
+  .tedrisCard__tittle {
+    font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #1B75BC;
+    line-height: 3rem; }
+  .tedrisCard__text {
+    font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 3rem;
+    margin: 2.3rem 0; }
+  .tedrisCard__list {
+    list-style: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .tedrisCard__item {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #999999;
+    line-height: 1.1rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .tedrisCard__item:not(:last-child) {
+      margin-right: 2rem; }
+    .tedrisCard__item .fa {
+      padding-right: 1rem; }
+
+/* ---------- CALENDAR ---------- */
+.calendar {
+  text-align: center; }
+
+.calendar header {
+  position: relative; }
+
+.calendar h2 {
+  text-transform: uppercase; }
+
+.calendar thead {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.calendar tbody {
+  color: #7c8a95; }
+
+.calendar tbody td:hover {
+  border: 2px solid #00addf; }
+
+.calendar td {
+  border: 2px solid transparent;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  display: inline-block;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  width: 4em; }
+
+.calendar .prev-month,
+.calendar .next-month {
+  color: #cbd1d2; }
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+  border: 2px solid #cbd1d2; }
+
+.current-day {
+  background: #00addf;
+  color: #f9f9f9; }
+
+.event {
+  cursor: pointer;
+  position: relative; }
+
+.event:after {
+  background: #00addf;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  bottom: .5em;
+  display: block;
+  content: '';
+  height: .5em;
+  left: 50%;
+  margin: -.25em 0 0 -.25em;
+  position: absolute;
+  width: .5em; }
+
+.event.current-day:after {
+  background: #f9f9f9; }
+
+.btn-prev,
+.btn-next {
+  border: 2px solid #cbd1d2;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  color: #cbd1d2;
+  height: 2em;
+  font-size: .75em;
+  line-height: 2em;
+  margin: -1em;
+  position: absolute;
+  top: 50%;
+  width: 2em; }
+
+.btn-prev:hover,
+.btn-next:hover {
+  background: #cbd1d2;
+  color: #f9f9f9; }
+
+.btn-prev {
+  left: 6em; }
+
+.btn-next {
+  right: 6em; }
 
 .footer {
   border-top: 2px solid #E2E2E2; }

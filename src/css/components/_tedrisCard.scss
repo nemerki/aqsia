@@ -1,0 +1,32 @@
+.tedrisCard {
+	margin-bottom: 7rem;
+
+	&__tittle {
+		@include font($gsm, 2.5rem, $color-primary, 3rem);
+	}
+
+	&__text {
+		@include font($gsl, 2rem, $color-dark, 3rem);
+		margin: 2.3rem 0;
+	}
+
+	&__list {
+		list-style: none;
+		padding: 0;
+		display: flex;
+	}
+
+	&__item {
+		@include font($gs, 1rem, $color-dark-light, 1.1rem);
+		display: flex;
+		align-items: center;
+
+		&:not(:last-child) {
+			margin-right: 2rem;
+		}
+
+		.fa {
+			padding-right: 1rem;
+		}
+	}
+}
