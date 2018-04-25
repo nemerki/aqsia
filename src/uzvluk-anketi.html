@@ -1,0 +1,114 @@
+//= template/head.html
+//= template/navigation.html
+
+<section class="uzvluk-anketi page-bg">
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">haqqımızda</a></li>
+				<li class="breadcrumb-item"><a href="#">haqqımızda</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Sədrin Müraciəti</li>
+			</ol>
+		</nav>
+
+		<h2 class="page-tittle">Uzvlük Anketi</h2>
+
+		<div class="uzvluk-anketi__content">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					
+
+					<form>
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<label class="uzvluk-anketi__label" for="ad">Ad</label>
+								<input type="text" class="form-control uzvluk-anketi__input" id="ad">
+							</div>
+							<div class="form-group col-md-4">
+								<label class="uzvluk-anketi__label" for="soyad">Soyad</label>
+								<input type="text" class="form-control uzvluk-anketi__input" id="soyad" >
+							</div>
+							<div class="form-group col-md-4">
+								<label class="uzvluk-anketi__label" for="password">Password</label>
+								<input type="password" class="form-control uzvluk-anketi__input" id="password" >
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="uzvluk-anketi__label" for="unvan">Qeydiyyatda olduğu ünvan (şəxsiyyət vəsiqəsində göstərildiyi kimi):</label>
+							<input type="text" class="form-control uzvluk-anketi__input" id="unvan" >
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<label class="uzvluk-anketi__label" for="tel">Mobil nömrə:</label>
+								<input type="text" class="form-control uzvluk-anketi__input" id="no">
+							</div>
+							<div class="form-group col-md-4">
+								<label class="uzvluk-anketi__label" for="tel2">Ev telefonu nömrəsi:</label>
+								<input type="text" class="form-control uzvluk-anketi__input" id="tel2" >
+							</div>
+							<div class="form-group col-md-4">
+								<label class="uzvluk-anketi__label" for="email">E-mail ünvanı:</label>
+								<input type="email" class="form-control uzvluk-anketi__input" id="email" >
+							</div>
+						</div>
+
+						<div class="form-row">
+							
+							<label class="uzvluk-anketi__label col-12">Müraciət edən sahibkar: </label>
+
+
+							<div class="form-group col-md-6">
+								<label class="uzvluk-anketi__label--color mr-2" >fiziki şəxsdir (fərdi sahibkar) </label>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="beli" name="customRadioInline1" class="custom-control-input">
+									<label class="custom-control-label uzvluk-anketi__label--color ml-2" for="beli">Bəli</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="xeyir" name="customRadioInline1" class="custom-control-input">
+									<label class="custom-control-label uzvluk-anketi__label--color ml-2" for="xeyir">Xeyir</label>
+								</div>
+								
+							</div>
+
+							<div class="form-group col-md-6">
+								<label class="uzvluk-anketi__label--color mr-2" >hüquqi şəxsdir </label>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="beli2" name="customRadioInline2" class="custom-control-input">
+									<label class="custom-control-label uzvluk-anketi__label--color ml-2" for="beli2">Bəli</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="xeyir2" name="customRadioInline2" class="custom-control-input">
+									<label class="custom-control-label uzvluk-anketi__label--color ml-2" for="xeyir2">Xeyir</label>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="uzvluk-anketi__label" for="megsed">AQSİA təşkilatına müraciətdə məqsədi: </label>
+							<textarea class="form-control uzvluk-anketi__textarea" type="textarea" id="megsed" maxlength="140" rows="5"></textarea>
+
+						</div>
+
+						<div class="form-group">
+							<label class="uzvluk-anketi__label" for="gozlenti">AQSİA təşkilatından gözləntiləri: </label>
+							<textarea class="form-control uzvluk-anketi__textarea" type="textarea" id="gozlenti" maxlength="140" rows="5"></textarea>
+
+						</div>
+						<div class="mybtn">
+							<a href="#" class="btn mybtn__btn" title="">Gönder</a>
+						</div>
+						<div class="mybtn mt-3">
+							<a href="#" class="uzvluk-anketi__link" title="">anket formasını endir</a>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+//= template/footer.html
+//= template/foot.html

@@ -1231,6 +1231,67 @@ body {
   .seminaric .tedrisCard {
     margin-bottom: 0; }
 
+.uzvluk-anketi {
+  padding-bottom: 8rem; }
+  .uzvluk-anketi__label {
+    font-family: GillSans-Italic, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #B9B9B9;
+    line-height: 18px; }
+    .uzvluk-anketi__label--color {
+      font-family: GillSans, Helvetica, Arial, sans-serif;
+      font-size: 1.5rem;
+      color: #3E3E3E;
+      line-height: 18px; }
+  .uzvluk-anketi__input, .uzvluk-anketi__textarea {
+    font-family: GillSans-Light, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #999999;
+    line-height: 23px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
+       -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
+    margin-bottom: 2.7rem; }
+    .uzvluk-anketi__input:focus, .uzvluk-anketi__textarea:focus {
+      outline: none;
+      -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+         -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+              box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+      -webkit-transform: scale(1.02) translateY(-3px);
+         -moz-transform: scale(1.02) translateY(-3px);
+          -ms-transform: scale(1.02) translateY(-3px);
+           -o-transform: scale(1.02) translateY(-3px);
+              transform: scale(1.02) translateY(-3px); }
+  .uzvluk-anketi__input {
+    height: 5rem; }
+  .uzvluk-anketi__link {
+    font-family: GillSans-Italic, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 23px;
+    border-bottom: 1px solid #3E3E3E; }
+    .uzvluk-anketi__link:hover {
+      color: #1B75BC;
+      text-decoration: none;
+      border-bottom: 1px solid #1B75BC; }
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: none; }
+
+.custom-radio .custom-control-label::before {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0; }
+
+.custom-control-label::before {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+     -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16); }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
