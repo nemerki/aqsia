@@ -35,81 +35,83 @@
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-<div class="container">
-  <nav class="navbar navbar-expand-lg navbar-default" role="navigation">
+<header id="header" class="header">
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-default" role="navigation">
 
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
 
 
-    <a class="navbar-brand" href="index.html"><img src="img/Asqia-logo.png" /></a>
+      <a class="navbar-brand" href="index.html"><img src="img/Asqia-logo.png" /></a>
 
-    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
 
-      <ul class=" navbar-nav navbar-left">
+        <ul class=" navbar-nav navbar-left">
+
+          <li class="nav-item dropdown">         
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">haqqimizda</a>
+           <ul class="dropdown-menu">
+            <li class="dropdown-item" ><a href="#">Tariximiz</a></li>
+            <li class="dropdown-item" ><a href="meqsed.html">Məqsəd və vəzifəmiz</a></li>
+            <li class="dropdown-item" ><a href="#">Strukturumuz</a></li>
+            <li class="dropdown-item" ><a href="sedrin-muracieti.html">Sədrin müraciəti</a></li>
+            <li class="dropdown-item" ><a href="news.html">Xəbərlər</a></li>
+            <li class="dropdown-item" ><a href="mediadabiz.html">Mediada biz</a></li>
+          </ul>
+        </li>
 
         <li class="nav-item dropdown">         
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">haqqimizda</a>
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">üzvlər</a>
          <ul class="dropdown-menu">
-          <li class="dropdown-item" ><a href="#">Tariximiz</a></li>
-          <li class="dropdown-item" ><a href="meqsed.html">Məqsəd və vəzifəmiz</a></li>
-          <li class="dropdown-item" ><a href="#">Strukturumuz</a></li>
-          <li class="dropdown-item" ><a href="sedrin-muracieti.html">Sədrin müraciəti</a></li>
-          <li class="dropdown-item" ><a href="news.html">Xəbərlər</a></li>
-          <li class="dropdown-item" ><a href="mediadabiz.html">Mediada biz</a></li>
+          <li class="dropdown-item" ><a href="#">Üzvlüyün qaydaları</a></li>
+          <li class="dropdown-item" ><a href="#">Üzvlük anketi</a></li>
+          <li class="dropdown-item" ><a href="aktiv-uzvler.html">Aktiv üzvlər</a></li>
+          <li class="dropdown-item" ><a href="terefdaslar.html">Milli tərəfdaşlar</a></li>
+          <li class="dropdown-item" ><a href="terefdaslar-int.html">Beynəlxalq tərəfdaşlar</a></li>
+          <li class="dropdown-item" ><a href="#" data-toggle="modal" data-target="#uzvlerModal">Hesabatlar</a></li>
         </ul>
       </li>
 
       <li class="nav-item dropdown">         
-       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">üzvlər</a>
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">fəaliyyətimiz</a>
        <ul class="dropdown-menu">
-        <li class="dropdown-item" ><a href="#">Üzvlüyün qaydaları</a></li>
-        <li class="dropdown-item" ><a href="#">Üzvlük anketi</a></li>
-        <li class="dropdown-item" ><a href="aktiv-uzvler.html">Aktiv üzvlər</a></li>
-        <li class="dropdown-item" ><a href="terefdaslar.html">Milli tərəfdaşlar</a></li>
-        <li class="dropdown-item" ><a href="terefdaslar-int.html">Beynəlxalq tərəfdaşlar</a></li>
-        <li class="dropdown-item" ><a href="#">Hesabatlar</a></li>
+        <li class="dropdown-item" ><a href="olke-daxilinde.html">Ölkə daxilində</a></li>
+        <li class="dropdown-item" ><a href="olke-xaricinde.html">Ölkə xaricində</a></li>
+        <li class="dropdown-item" ><a href="xidmetlerimiz.html">Xidmətlərimiz</a></li>
+        <li class="dropdown-item" ><a href="#">Məhsullarımız</a></li>
+        <li class="dropdown-item" ><a href="layiheler.html">Layihələrimiz</a></li>
+        <li class="dropdown-item" ><a href="#" data-toggle="modal" data-target="#fealiyyetlerModal">Hesabat</a></li>
       </ul>
     </li>
+  </ul>
 
+  <ul class=" navbar-nav ml-auto">
     <li class="nav-item dropdown">         
-     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">fəaliyyətimiz</a>
+     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">tədris</a>
      <ul class="dropdown-menu">
-      <li class="dropdown-item" ><a href="olke-daxilinde.html">Ölkə daxilində</a></li>
-      <li class="dropdown-item" ><a href="olke-xaricinde.html">Ölkə xaricində</a></li>
-      <li class="dropdown-item" ><a href="xidmetlerimiz.html">Xidmətlərimiz</a></li>
-      <li class="dropdown-item" ><a href="#">Məhsullarımız</a></li>
-      <li class="dropdown-item" ><a href="layiheler.html">Layihələrimiz</a></li>
-      <li class="dropdown-item" ><a href="#">Hesabat</a></li>
+      <li class="dropdown-item" ><a href="seminarlar.html">Seminarlar</a></li>
+      <li class="dropdown-item" ><a href="telimler.html">Təlimlər</a></li>
+      <li class="dropdown-item" ><a href="deyirmi-masa.html">Dəyirmi masalar</a></li>
+      <li class="dropdown-item" ><a href="xaricde-ixtisasartirma.html">Xaricdə ixtisasartırma</a></li>
+      <li class="dropdown-item" ><a href="video-tedris.html">Video tədris</a></li>
+      <li class="dropdown-item" ><a href="#"  data-toggle="modal" data-target="#tedrisModal">Hesabat</a></li>
     </ul>
   </li>
-</ul>
-
-<ul class=" navbar-nav ml-auto">
   <li class="nav-item dropdown">         
-   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">tədris</a>
+   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">sahibkar qadınlar</a>
    <ul class="dropdown-menu">
-    <li class="dropdown-item" ><a href="seminarlar.html">Seminarlar</a></li>
-    <li class="dropdown-item" ><a href="#">Təlimlər</a></li>
-    <li class="dropdown-item" ><a href="deyirmi-masa.html">Dəyirmi masalar</a></li>
-    <li class="dropdown-item" ><a href="xaricde-ixtisasartirma.html">Xaricdə ixtisasartırma</a></li>
-    <li class="dropdown-item" ><a href="video-tedris.html">Video tədris</a></li>
-    <li class="dropdown-item" ><a href="#">Hesabat</a></li>
+    <li class="dropdown-item" ><a href="sahibkar-qadinlari-taniyaq.html">Sahibkar qadınları tanıyaq</a></li>
+    <li class="dropdown-item" ><a href="#">Uğurlu sahibkar qadınlar</a></li>
+    <li class="dropdown-item" ><a href="sahibkar-nece-olum.html">Sahibkar necə olum?</a></li>
+    <li class="dropdown-item" ><a href="magaza-nece-qurum.html">Virtual mağaza necə qurum?</a></li>
+    <li class="dropdown-item" ><a href="biznes-inkisaf.html">Biznesi necə inkişaf etdirim?</a></li>
+    <li class="dropdown-item" ><a href="#" data-toggle="modal" data-target="#sahibkarModal" >Hesabat</a></li>
   </ul>
-</li>
-<li class="nav-item dropdown">         
- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">sahibkar qadınlar</a>
- <ul class="dropdown-menu">
-  <li class="dropdown-item" ><a href="sahibkar-qadinlari-taniyaq.html">Sahibkar qadınları tanıyaq</a></li>
-  <li class="dropdown-item" ><a href="#">Uğurlu sahibkar qadınlar</a></li>
-  <li class="dropdown-item" ><a href="sahibkar-nece-olum.html">Sahibkar necə olum?</a></li>
-  <li class="dropdown-item" ><a href="magaza-nece-qurum.html">Virtual mağaza necə qurum?</a></li>
-  <li class="dropdown-item" ><a href="biznes-inkisaf.html">Biznesi necə inkişaf etdirim?</a></li>
-  <li class="dropdown-item" ><a href="#">Hesabat</a></li>
-</ul>
 </li>
 <li class="nav-item"><a class="nav-link" href="contact.html">əlaqə</a></li>
 
@@ -117,6 +119,354 @@
 </div>
 </nav>
 </div>
+
+
+
+<!--Uzvler Modal -->
+<div class="modal mymodal fade" id="uzvlerModal" tabindex="-1" role="dialog" aria-labelledby="uzvlerModalTitle" aria-hidden="true">
+  <div class="modal-dialog mymodal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content mymodal-content">
+      <div class="modal-header mymodal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="mymodal__logo">
+          <img src="img/Asqia-logo.png" class="img-fluid" alt="">
+        </div>
+        <h2 class="mymodal__tittle">Üzvlər Bölümü üzrə Hesabat</h2>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">Bölmələr üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="activUzvler">
+              <label class="custom-control-label mymodal__label" for="activUzvler">Aktiv üzvlərimiz</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="milliTerefdaslar">
+              <label class="custom-control-label mymodal__label" for="milliTerefdaslar">Milli tərəfdaşlar</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="beynelxalqTerefdaslar">
+              <label class="custom-control-label mymodal__label" for="beynelxalqTerefdaslar">Beynəlxalq tərəfdaşlar</label>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">İllər üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="il2016">
+              <label class="custom-control-label mymodal__label" for="il2016">2016</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="il2017">
+              <label class="custom-control-label mymodal__label" for="il2017">2017</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="il2018">
+              <label class="custom-control-label mymodal__label" for="il2018">2018</label>
+            </div>
+
+
+          </div>
+        </div>
+        
+        <div class="mybtn">
+          <a href="#" class="btn mybtn__btn" title="">Endir</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--Fealiyyetler Modal -->
+<div class="modal mymodal fade" id="fealiyyetlerModal" tabindex="-1" role="dialog" aria-labelledby="uzvlerModalTitle" aria-hidden="true">
+  <div class="modal-dialog mymodal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content mymodal-content">
+      <div class="modal-header mymodal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="mymodal__logo">
+          <img src="img/Asqia-logo.png" class="img-fluid" alt="">
+        </div>
+        <h2 class="mymodal__tittle">Fəaliyyətimiz Bölümü üzrə Hesabat</h2>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">Bölmələr üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="olkeDaxilinde">
+              <label class="custom-control-label mymodal__label" for="olkeDaxilinde">Ölkə Daxilində</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="olkeXaricinde">
+              <label class="custom-control-label mymodal__label" for="olkeXaricinde">Ölkə Xaricində</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="xidmətlərimiz">
+              <label class="custom-control-label mymodal__label" for="xidmətlərimiz">Xidmətlərimiz</label>
+            </div>
+
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="məhsullarımız">
+              <label class="custom-control-label mymodal__label" for="məhsullarımız">Məhsullarımız</label>
+            </div>
+
+
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="layihələrimiz">
+              <label class="custom-control-label mymodal__label" for="layihələrimiz">Layihələrimiz</label>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">İllər üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="fil2016">
+              <label class="custom-control-label mymodal__label" for="fil2016">2016</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="fil2017">
+              <label class="custom-control-label mymodal__label" for="fil2017">2017</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="fil2018">
+              <label class="custom-control-label mymodal__label" for="fil2018">2018</label>
+            </div>
+
+
+          </div>
+        </div>
+        
+        <div class="mybtn">
+          <a href="#" class="btn mybtn__btn" title="">Endir</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--Tedris Modal -->
+<div class="modal mymodal fade" id="tedrisModal" tabindex="-1" role="dialog" aria-labelledby="tedrisModalTitle" aria-hidden="true">
+  <div class="modal-dialog mymodal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content mymodal-content">
+      <div class="modal-header mymodal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="mymodal__logo">
+          <img src="img/Asqia-logo.png" class="img-fluid" alt="">
+        </div>
+        <h2 class="mymodal__tittle">Fəaliyyətimiz Bölümü üzrə Hesabat</h2>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">Bölmələr üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="seminarlar">
+              <label class="custom-control-label mymodal__label" for="seminarlar">Seminarlar</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="təlimlər">
+              <label class="custom-control-label mymodal__label" for="təlimlər">Təlimlər</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="dmasa">
+              <label class="custom-control-label mymodal__label" for="dmasa">Dəyirmi Masalar</label>
+            </div>
+
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="xixtisaslasma">
+              <label class="custom-control-label mymodal__label" for="xixtisaslasma">Xaricdə İxtisasartırma</label>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">İllər üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="til2016">
+              <label class="custom-control-label mymodal__label" for="til2016">2016</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="til2017">
+              <label class="custom-control-label mymodal__label" for="til2017">2017</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="til2018">
+              <label class="custom-control-label mymodal__label" for="til2018">2018</label>
+            </div>
+
+
+          </div>
+        </div>
+        
+        <div class="mybtn">
+          <a href="#" class="btn mybtn__btn" title="">Endir</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--Sahibkar Qadınlar Modal -->
+<div class="modal mymodal fade" id="sahibkarModal" tabindex="-1" role="dialog" aria-labelledby="tedrisModalTitle" aria-hidden="true">
+  <div class="modal-dialog mymodal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content mymodal-content">
+      <div class="modal-header mymodal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="mymodal__logo">
+          <img src="img/Asqia-logo.png" class="img-fluid" alt="">
+        </div>
+        <h2 class="mymodal__tittle">Sahibkar Qadınlar Bölümü üzrə Hesabat</h2>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">Bölmələr üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="sqt">
+              <label class="custom-control-label mymodal__label" for="sqt">Sahibkar qadınları tanıyaq</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="usq">
+              <label class="custom-control-label mymodal__label" for="usq">Uğurlu sahibkar qadınlar</label>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">Sahibkarlığın Həcmi:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="iri">
+              <label class="custom-control-label mymodal__label" for="iri">İri</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="orta">
+              <label class="custom-control-label mymodal__label" for="orta">Orta</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="kicik">
+              <label class="custom-control-label mymodal__label" for="kicik">Kiçik</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">Biznes Növləri:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="toxuculuq">
+              <label class="custom-control-label mymodal__label" for="toxuculuq">toxuculuq</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="geyim">
+              <label class="custom-control-label mymodal__label" for="geyim">geyim</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="dizayn">
+              <label class="custom-control-label mymodal__label" for="dizayn">dizayn</label>
+            </div>
+
+             <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="aksessuar">
+              <label class="custom-control-label mymodal__label" for="aksessuar">aksessuar</label>
+            </div>
+
+             <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="əlişləri">
+              <label class="custom-control-label mymodal__label" for="əlişləri">əl işləri</label>
+            </div>
+
+             <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="reklam">
+              <label class="custom-control-label mymodal__label" for="reklam">reklam</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mymodal__option">
+          <h5 class="mymodal__option-tittle">İllər üzrə:</h5>
+          <div class="mymodal__check row">
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="sqil2016">
+              <label class="custom-control-label mymodal__label" for="sqil2016">2016</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="sqil2017">
+              <label class="custom-control-label mymodal__label" for="sqil2017">2017</label>
+            </div>
+
+            <div class="custom-control custom-checkbox mymodal__check-item col-4">
+              <input type="checkbox" class="custom-control-input" id="sqil2018">
+              <label class="custom-control-label mymodal__label" for="sqil2018">2018</label>
+            </div>
+
+
+          </div>
+        </div>
+        
+        <div class="mybtn">
+          <a href="#" class="btn mybtn__btn" title="">Endir</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</header><!-- /header -->
 
 <section class="contact page-bg">
 	<div class="container">

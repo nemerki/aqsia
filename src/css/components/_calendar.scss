@@ -142,6 +142,6 @@
 .ui-datepicker-calendar thead tr {
 	font-size: 2rem;
 }
-.ui-datepicker-calendar  tr td:last-child .ui-state-default, .ui-datepicker-week-end {
+.ui-datepicker-calendar  tr td:last-child .ui-state-default, .ui-datepicker-week-end:last-child span {
 	color: #f3aa9e;
 }

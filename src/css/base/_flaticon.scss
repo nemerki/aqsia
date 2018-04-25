@@ -36,12 +36,11 @@
       font-smoothing: antialiased;
     }
 
-    .flaticon-talking:before { content: "\f100"; }
-    .flaticon-chat-1:before { content: "\f101"; }
-    .flaticon-newspaper:before { content: "\f102"; }
-    .flaticon-chat:before { content: "\f103"; }
     
-    $font-Flaticon-talking: "\f100";
-    $font-Flaticon-chat-1: "\f101";
-    $font-Flaticon-newspaper: "\f102";
-    $font-Flaticon-chat: "\f103";
+    .flaticon-map-location:before { content: "\f100"; }
+    .flaticon-calendar:before { content: "\f101"; }
+    .flaticon-alarm-clock:before { content: "\f102"; }
+    
+    $font-Flaticon-map-location: "\f100";
+    $font-Flaticon-calendar: "\f101";
+    $font-Flaticon-alarm-clock: "\f102";

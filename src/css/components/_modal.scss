@@ -52,5 +52,52 @@
 
 	.close {
 		font-size: 3rem;
+		z-index: 2;
 	}
+
+	&__logo {
+		display: flex;
+		justify-content: center;
+		margin-top: -4rem;
+		margin-bottom: 3rem;
+	}
+
+	&__tittle {
+		@include font($gsm, 3rem, $color-primary, 36px);
+		text-align: center;
+		margin-bottom: 4rem;
+	}
+
+	&__option {
+		margin-bottom: 6.8rem;
+		padding-left: 3.8rem;
+
+	}
+
+	&__option-tittle {
+		@include font($gs, 1.8rem, #5F5F5F, 22px);
+		margin-bottom: 2.2rem;
+	}
+
+	&__check {
+		// display: flex;
+		// flex-wrap: wrap;
+	}
+
+	&__check-item:not(:last-child) {
+		// margin-right: 4.8rem;
+	}
+
+	&__label {
+		@include font($gs, 1.6rem, #3E3E3E, 30px);
+		margin-left: 1.5rem;
+	}
+
+	.custom-control-label::after, .custom-control-label::before {
+		width: 2rem;
+		height: 2rem;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
 }

@@ -208,17 +208,14 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
 
-.flaticon-talking:before {
+.flaticon-map-location:before {
   content: "\f100"; }
 
-.flaticon-chat-1:before {
+.flaticon-calendar:before {
   content: "\f101"; }
 
-.flaticon-newspaper:before {
+.flaticon-alarm-clock:before {
   content: "\f102"; }
-
-.flaticon-chat:before {
-  content: "\f103"; }
 
 .social .fa {
   font-size: 2rem;
@@ -407,7 +404,58 @@ body {
     position: relative; }
 
 .mymodal .close {
-  font-size: 3rem; }
+  font-size: 3rem;
+  z-index: 2; }
+
+.mymodal__logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -4rem;
+  margin-bottom: 3rem; }
+
+.mymodal__tittle {
+  font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  color: #1B75BC;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 4rem; }
+
+.mymodal__option {
+  margin-bottom: 6.8rem;
+  padding-left: 3.8rem; }
+
+.mymodal__option-tittle {
+  font-family: GillSans, Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  color: #5F5F5F;
+  line-height: 22px;
+  margin-bottom: 2.2rem; }
+
+.mymodal__label {
+  font-family: GillSans, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  color: #3E3E3E;
+  line-height: 30px;
+  margin-left: 1.5rem; }
+
+.mymodal .custom-control-label::after, .mymodal .custom-control-label::before {
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%); }
 
 .page-tittle {
   font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
@@ -527,7 +575,7 @@ body {
     font-family: GillSans, Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #999999;
-    line-height: 1.1rem;
+    line-height: 2.8rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -540,8 +588,10 @@ body {
             align-items: center; }
     .tedrisCard__item:not(:last-child) {
       margin-right: 2rem; }
-    .tedrisCard__item .fa {
-      padding-right: 1rem; }
+    .tedrisCard__item .fi {
+      padding-right: 1rem;
+      font-size: 2.5rem;
+      color: #1B75BC; }
 
 .ui-datepicker-header {
   height: 24px;
@@ -700,7 +750,7 @@ body {
 .ui-datepicker-calendar thead tr {
   font-size: 2rem; }
 
-.ui-datepicker-calendar tr td:last-child .ui-state-default, .ui-datepicker-week-end {
+.ui-datepicker-calendar tr td:last-child .ui-state-default, .ui-datepicker-week-end:last-child span {
   color: #f3aa9e; }
 
 .footer {
@@ -1151,6 +1201,35 @@ body {
     line-height: 36px;
     text-align: center;
     margin: 3.5rem 0 2.4rem; }
+
+.seminaric {
+  padding-bottom: 10rem; }
+  .seminaric__img {
+    position: relative;
+    margin: 5rem auto 0;
+    width: 73%;
+    margin-bottom: 4rem; }
+    @media (max-width: 767px) {
+      .seminaric__img {
+        width: 100%; } }
+    @media (max-width: 575px) {
+      .seminaric__img {
+        width: 90%; } }
+    .seminaric__img:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -24px;
+      right: 24px;
+      border: 1px solid #CBCBCB;
+      z-index: 1; }
+    .seminaric__img img {
+      z-index: 2;
+      position: relative; }
+  .seminaric .tedrisCard {
+    margin-bottom: 0; }
 
 /* ==========================================================================
    Helper classes
