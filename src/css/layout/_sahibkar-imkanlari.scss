@@ -1,0 +1,39 @@
+.sahibkar-imkanlari {
+
+
+	&__content {
+
+		background-image: url("../../img/257559-P4GDJB-964.png");
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		padding-bottom: 10rem;
+
+		@include respondmax(lg) {
+			background: none;
+		}
+
+	}
+
+	&__bg {
+		display: none;
+
+
+		@include respondmax(lg) {
+			display: block;
+			margin-bottom: 3rem;
+		}
+	}
+
+
+
+	&__btn {
+		margin-top: 5rem;
+	}
+
+	.paragraph-right {
+		@include respondmax(lg) {
+			text-align: center;
+		}
+	}
+
+}

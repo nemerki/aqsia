@@ -117,6 +117,13 @@ body {
   color: #3E3E3E;
   line-height: 30px; }
 
+.paragraph-right {
+  font-family: GillSans, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  color: #3E3E3E;
+  line-height: 30px;
+  text-align: right; }
+
 .paragraph-center {
   font-family: GillSans, Helvetica, Arial, sans-serif;
   font-size: 2rem;
@@ -172,6 +179,11 @@ body {
   font-family: GillSans-Italic;
   src: url("../../fonts/GillSans-Italic.eot");
   src: url("../../fonts/GillSans-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/GillSans-Italic.woff2") format("woff2"), url("../../fonts/GillSans-Italic.woff") format("woff"), url("../../fonts/GillSans-Italic.ttf") format("truetype"), url("../../fonts/GillSans-Italic.svg#GillSans-Italic") format("svg"); }
+
+@font-face {
+  font-family: GillSans-LightItalic;
+  src: url("../../fonts/GillSans-LightItalic.eot");
+  src: url("../../fonts/GillSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/GillSans-LightItalic.woff2") format("woff2"), url("../../fonts/GillSans-LightItalic.woff") format("woff"), url("../../fonts/GillSans-LightItalic.ttf") format("truetype"), url("../../fonts/GillSans-LightItalic.svg#GillSans-LightItalic") format("svg"); }
 
 @font-face {
   font-family: AnotherdayinParadise;
@@ -870,6 +882,49 @@ body {
     padding-bottom: 5.7rem;
     text-align: center; }
 
+.sahibkar-imkanlari__content {
+  background-image: url("../../img/257559-P4GDJB-964.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-bottom: 10rem; }
+  @media (max-width: 991px) {
+    .sahibkar-imkanlari__content {
+      background: none; } }
+
+.sahibkar-imkanlari__bg {
+  display: none; }
+  @media (max-width: 991px) {
+    .sahibkar-imkanlari__bg {
+      display: block;
+      margin-bottom: 3rem; } }
+
+.sahibkar-imkanlari__btn {
+  margin-top: 5rem; }
+
+@media (max-width: 991px) {
+  .sahibkar-imkanlari .paragraph-right {
+    text-align: center; } }
+
+.secilmis-mehsullar__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.secilmis-mehsullar__star {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+
 .contact {
   padding-bottom: 7rem; }
   .contact__map {
@@ -1067,6 +1122,45 @@ body {
       left: 55px;
       border: 1px solid #CBCBCB;
       z-index: -1; }
+  .sedrin-muracieti__container {
+    position: relative;
+    padding: 8rem;
+    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
+       -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
+    background-image: url(../../img/si.lt.png);
+    background-position: bottom left;
+    background-repeat: no-repeat; }
+    .sedrin-muracieti__container::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .sedrin-muracieti__container .sedrin-muracieti__img-container {
+      margin-bottom: 0; }
+  .sedrin-muracieti__readmore {
+    position: absolute;
+    right: 47%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    color: #1B75BC;
+    line-height: 3rem; }
+    .sedrin-muracieti__readmore a:hover {
+      text-decoration: none; }
+  .sedrin-muracieti__line {
+    margin-left: .75rem;
+    height: 3px;
+    width: 8.8rem;
+    background: #1B75BC; }
 
 .aktiv-uzvler {
   padding-bottom: 15rem; }
@@ -1337,6 +1431,122 @@ body {
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
      -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16); }
+
+.struktur__nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.struktur .nav-item:not(:last-child) {
+  margin-right: 2.5rem; }
+
+.olke-daxilindeic-img__img {
+  margin-bottom: 6rem; }
+  @media (max-width: 575px) {
+    .olke-daxilindeic-img__img {
+      width: 95%;
+      margin: 0 auto; } }
+  .olke-daxilindeic-img__img .owl-next {
+    position: absolute;
+    top: 45%;
+    right: -4rem;
+    font-size: 6rem !important;
+    color: #1B75BC !important;
+    -webkit-transform: translateY(-50%) !important;
+       -moz-transform: translateY(-50%) !important;
+        -ms-transform: translateY(-50%) !important;
+         -o-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+    line-height: 3rem; }
+    .olke-daxilindeic-img__img .owl-next:focus {
+      outline: none; }
+  .olke-daxilindeic-img__img .owl-prev {
+    position: absolute;
+    top: 45%;
+    left: -4rem;
+    font-size: 6rem !important;
+    color: #1B75BC !important;
+    -webkit-transform: translateY(-50%) !important;
+       -moz-transform: translateY(-50%) !important;
+        -ms-transform: translateY(-50%) !important;
+         -o-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+    line-height: 3rem; }
+    .olke-daxilindeic-img__img .owl-prev:focus {
+      outline: none; }
+  .olke-daxilindeic-img__img .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #fff !important; }
+
+.olke-daxilindeic-img__vid {
+  margin-top: 6rem; }
+  .olke-daxilindeic-img__vid h2 {
+    font-family: GillSans-Medium, Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #3E3E3E;
+    line-height: 30px;
+    margin-bottom: 1.5rem; }
+
+.uzvluk-qaydalari {
+  padding-bottom: 10rem; }
+  .uzvluk-qaydalari__img {
+    position: relative;
+    max-width: 10rem;
+    margin: 3rem auto 0; }
+    @media (max-width: 767px) {
+      .uzvluk-qaydalari__img {
+        width: 100%; } }
+    @media (max-width: 575px) {
+      .uzvluk-qaydalari__img {
+        width: 90%; } }
+    .uzvluk-qaydalari__img:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -9px;
+      left: 9px;
+      border: 1px solid #CBCBCB;
+      z-index: 1; }
+    .uzvluk-qaydalari__img img {
+      z-index: 2;
+      position: relative; }
+  .uzvluk-qaydalari__item {
+    text-align: center; }
+  .uzvluk-qaydalari__text {
+    font-family: GillSans-LightItalic, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 2.2rem; }
+  .uzvluk-qaydalari__name {
+    font-family: GillSans, Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #3E3E3E;
+    line-height: 3rem; }
+  .uzvluk-qaydalari__sub {
+    font-family: GillSans-LightItalic, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #3E3E3E;
+    line-height: 3rem; }
+  .uzvluk-qaydalari .paragraph-center {
+    margin-bottom: 7rem;
+    margin-top: 5rem; }
+  .uzvluk-qaydalari .owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+    border: 1px solid #1B75BC; }
+  .uzvluk-qaydalari .owl-dot:focus {
+    outline: none; }
+  .uzvluk-qaydalari .owl-theme .owl-dots .owl-dot.active span {
+    background: #1B75BC; }
 
 /* ==========================================================================
    Helper classes

@@ -2,6 +2,11 @@
 	@include font($gs, 2rem, $color-dark, 30px);
 }
 
+.paragraph-right {
+	@include font($gs, 2rem, $color-dark, 30px);
+	text-align: right;
+}
+
 .paragraph-center {
 	@include font($gs, 2rem, $color-dark, 30px);
 	text-align: center;

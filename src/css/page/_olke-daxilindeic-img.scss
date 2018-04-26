@@ -1,0 +1,54 @@
+.olke-daxilindeic-img {
+
+	&__img {
+		margin-bottom: 6rem;
+
+		@include respondmax(sm) {
+			width: 95%;
+			margin: 0 auto;
+		}
+
+		.owl-next {
+			position: absolute;
+			top: 45%;
+			right: -4rem;
+			font-size: 6rem !important;
+			color: $color-primary !important;
+			transform: translateY(-50%) !important;
+			line-height: 3rem;
+
+			&:focus {
+				outline: none;
+			}
+
+		}
+
+		.owl-prev {
+			position: absolute;
+			top:45%;
+			left: -4rem;
+			font-size: 6rem !important;
+			color: $color-primary !important;
+			transform: translateY(-50%) !important;
+			line-height: 3rem;
+
+			&:focus {
+				outline: none;
+			}
+			
+		}
+
+		.owl-theme .owl-nav [class*=owl-]:hover {
+			background-color: #fff !important;
+		}
+	}
+
+	&__vid {
+		margin-top: 6rem;
+		h2 {
+			@include font($gsm, 2.5rem, $color-dark, 30px);
+			margin-bottom: 1.5rem;
+		}
+	}
+
+}
