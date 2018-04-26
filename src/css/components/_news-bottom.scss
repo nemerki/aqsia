@@ -8,6 +8,13 @@
 		@include font($gs, 2rem, $color-mute, 2.4rem);
 	}
 
+	&__view {
+		@include font($gs, 2rem, $color-mute, 2.4rem);	
+		.fa {
+			color: $color-mute;
+		}
+	}
+
 	.social {
 		.fa {
 			color: $color-mute;
