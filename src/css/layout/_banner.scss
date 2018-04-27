@@ -1,8 +1,18 @@
 .banner {
-	padding-bottom: 6rem;
-	background-image: url('../../img/Mask Group 15.png');
+	
+	background-image: url('../../img/bannerbg.png');
 	background-size: cover;
-	background-position: top left;
+	
+	&__container {
+		background-image: url('../../img/bannerimg.png');
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		padding-bottom: 6rem;
+
+		@include respondmax(md) {
+			background-image: none;
+		}
+	}
 
 	&__text {
 		@include font($gs, 2rem, $color-white, 30px);

@@ -11,3 +11,7 @@
 	@include font($gs, 2rem, $color-dark, 30px);
 	text-align: center;
 }
+
+.azn {
+	@include font($aznr);
+} 

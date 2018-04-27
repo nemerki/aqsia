@@ -1,0 +1,120 @@
+.index-slide {
+	margin-top: 9rem;
+
+	&__left {
+		position: relative;
+
+
+		&-carusel {
+			box-shadow: 0px 0px 25px rgba(0,0,0,.16);
+
+			.owl-dots {
+				position: absolute;
+				bottom: 2rem;
+				left: 2rem;
+
+			}
+
+
+
+		}
+
+		&-img {
+			width: 100%;
+		}
+
+		&-content  {
+			position: absolute;
+			bottom: 0;
+			background-image: url('../../img/Path 3.png');
+			background-repeat: no-repeat;
+			background-size: 100% 102%;
+			text-align: right;
+			width: 100%;
+			padding-top: 8rem;
+			padding-right: 1.6rem;
+			padding-bottom: 1rem;
+		}
+
+		&-date {
+			@include font($gsl, 1rem, $color-dark, 12px);
+		}
+
+		&-tittle {
+			@include font($gsm, 1.4rem, $color-primary, 20px);
+			max-width: 37rem;
+			margin-left: auto;
+
+		}
+
+		&-text {
+			@include font($gsl, .8rem, $color-dark, 15px);
+			max-width: 33rem;
+			margin-left: auto;
+
+		}
+
+	}
+
+
+
+	&__right {
+		background-color: #fff;
+		padding: 1.5rem 2rem 0;
+
+		&-carusel {
+			box-shadow: 0px 0px 25px rgba(0,0,0,.16);
+		}
+
+		&-img {
+			padding: 2rem;
+
+			img {
+				max-height: 18rem;
+			}
+		}
+
+		&-content {
+			a {
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+
+
+		&-tittle {
+			@include font($gsm, 1.4rem, $color-primary, 2rem);
+			text-align: center;
+		}
+
+		&-text {
+			@include font($gsl, 1.2rem, $color-dark, 2rem);
+			margin-top: 1.4rem;
+			margin-bottom: 2rem;
+			text-align: center;
+			padding: 0 1.3rem
+		}
+
+		.tedrisCard__list {
+			justify-content: center;
+		}
+
+	}
+
+
+	.owl-theme .owl-dots .owl-dot span {
+		background: #fff;
+		border: 1px solid $color-primary;
+	}
+
+	.owl-dot:focus {
+		outline: none;
+	}
+
+	.owl-theme .owl-dots .owl-dot.active span {
+		background: $color-primary;
+	}
+
+	
+}
