@@ -37,10 +37,12 @@
     }
 
     
-    .flaticon-map-location:before { content: "\f100"; }
-    .flaticon-calendar:before { content: "\f101"; }
-    .flaticon-alarm-clock:before { content: "\f102"; }
+    .flaticon-calendar-and-clock:before { content: "\f100"; }
+    .flaticon-alarm-clock:before { content: "\f101"; }
+    .flaticon-map-location:before { content: "\f102"; }
+    .flaticon-filter-results-button:before { content: "\f103"; }
     
-    $font-Flaticon-map-location: "\f100";
-    $font-Flaticon-calendar: "\f101";
-    $font-Flaticon-alarm-clock: "\f102";
+    $font-Flaticon-calendar-and-clock: "\f100";
+    $font-Flaticon-alarm-clock: "\f101";
+    $font-Flaticon-map-location: "\f102";
+    $font-Flaticon-filter-results-button: "\f103";

@@ -1,0 +1,30 @@
+.tariximiz {
+
+
+	padding-bottom: 10rem;
+
+	&__content {
+		@include font($gsl, 2rem, $color-dark, 3rem);
+	}
+
+	&__img-container {
+		float: left;
+		width: 50%;
+
+		@include respondmax(md) {
+			width: 100%;
+			float: none;
+			display: flex;
+			justify-content: center;
+			margin-bottom: 2rem;
+		}
+
+		img {
+
+			@include respondmin(md){
+				padding-right: 2rem;
+			}
+		}
+	}
+
+}

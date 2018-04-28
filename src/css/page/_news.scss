@@ -24,6 +24,12 @@
 
 	&__content {
 		margin-top: 4rem;
+
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
 	}
 
 	&__small {

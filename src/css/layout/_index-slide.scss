@@ -8,10 +8,20 @@
 		&-carusel {
 			box-shadow: 0px 0px 25px rgba(0,0,0,.16);
 
+			@include respondmax(lg) {
+				margin-bottom: 2rem;
+			}
+
 			.owl-dots {
 				position: absolute;
 				bottom: 2rem;
 				left: 2rem;
+
+				@include respondmax(sm) {
+					bottom: 0;
+					left: 50%;
+					transform: translateX(-50%);
+				}
 
 			}
 
@@ -34,6 +44,12 @@
 			padding-top: 8rem;
 			padding-right: 1.6rem;
 			padding-bottom: 1rem;
+
+			@include respondmax(sm) {
+				position: static;
+				padding-top: 1rem;
+				margin-bottom: 1rem;
+			}
 		}
 
 		&-date {
@@ -71,6 +87,25 @@
 
 			img {
 				max-height: 18rem;
+
+				@include respondmax(xl) {
+					max-height: 25rem;
+					max-width: 50% !important;
+					margin: 0 auto;
+				}
+
+				@include respondmax(md) {
+					
+					max-width: 70% !important;
+					
+				}
+
+
+				@include respondmax(sm) {
+					
+					max-width: 100% !important;
+					
+				}
 			}
 		}
 

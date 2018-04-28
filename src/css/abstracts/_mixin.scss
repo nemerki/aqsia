@@ -27,19 +27,19 @@
 
 @mixin respondmin($breakpoint){
 	@if $breakpoint == sm {
-		@media (min-width: 576px) {@content};
+		@media (min-width: 577px) {@content};
 	}
 
 	@if $breakpoint == md {
-		@media (min-width: 768px) {@content};
+		@media (min-width: 769px) {@content};
 	}
 
 	@if $breakpoint == lg {
-		@media (min-width: 992px) {@content};
+		@media (min-width: 993px) {@content};
 	}
 
 	@if $breakpoint == xl {
-		@media (min-width: 1200px) {@content};
+		@media (min-width: 1201px) {@content};
 	}
 
 	

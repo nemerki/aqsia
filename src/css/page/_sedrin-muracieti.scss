@@ -10,6 +10,11 @@
 	&__tittle {
 		@include font($gs, 3rem, $color-primary, 3.6rem);
 		margin-bottom: 2rem;
+
+		@include respondmax(lg) {
+			text-align: center;
+			margin-top: 2rem;
+		}
 	}
 
 
@@ -22,9 +27,15 @@
 		margin-top: 55px;
 		margin-bottom: 7rem;
 
-		@include respondmax(md) {
+		@include respondmax(lg) {
 			width: 90%;
 			float: none;
+			margin-left: 0;
+
+		}
+
+		@include respondmax(sm) {
+			text-align: center;
 		}
 	}
 
@@ -53,6 +64,11 @@
 			left: 55px;
 			border: 1px solid $color-border;
 			z-index: -1;
+
+			@include respondmax(sm) {
+				top: -25px; 
+				left: 25px;
+			}
 		}
 	}
 
@@ -64,6 +80,11 @@
 		background-image: url(../../img/si.lt.png);
 		background-position: bottom left;
 		background-repeat: no-repeat;
+		@include clearfix;
+
+		@include respondmax(md) {
+			padding: 4rem;
+		}
 
 
 		.sedrin-muracieti__img-container {
