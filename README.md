@@ -6,6 +6,7 @@
 #### NPM
 #### BOWER
 #### BEM
+#### SMACSS 
 
 ## GULP
 Development terefinde bütün deyişiklikler **/src** klasörü içerisinde olunur gulp ile compile edilerek **/build** klasörüne atılır.
@@ -22,7 +23,7 @@ Gulp'da görülen işler <br />
 -flatten ile font klasöründe her fontu bütün formatlarda ayrı ayrı klasörlere ayırmışam bu font klasöründeki bütün klasör içindeki dosyaların hamısını alıb build içindeki font klasörüne atır<br />
 <br />
 ## SASS
-Sass dosyaları **/src** klasörü altındaki **/css** klasörü içerisindedi bütün css deyişiklikleri burda olunacaq daha rahat başa düşülmesi üçün **SMACSS** mentiqi ile klasörler yaradılıb hansı klasörde ne olduğu aşağıdadı <br />
+Sass dosyaları **/src** klasörü altındaki **/css** klasörü içerisindedi bütün css deyişiklikleri burda olunacaq daha rahat başa düşülmesi üçün **SMACSS** standartı ile klasörler yaradılıb hansı klasörde ne olduğu aşağıdadı <br />
 
 ### /abstracts
 bu klasör içerisinde  html5boilerplate sıfırlaması funksiyalar mixinler ve variable lar tutulur
