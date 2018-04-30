@@ -27,7 +27,7 @@
 /*[ Top bar ]
 ===========================================================*/
 .topbar {
-	height: 45px;
+	height: 73px;
 	background-color: #fff;
 	position: relative;
 	display: flex;
@@ -663,7 +663,92 @@ li.sale-noti > a {
 .lang .navAfter:not(:first-child)::before, .topbar-child2 .navAfter:not(:first-child)::before { 
 	content: "//";
 	padding-right: 5px;
+
 }
+
+.navAfter2 {
+	text-align: center;
+	margin-left: 3rem;
+	margin-right: 3rem !important;
+
+	// img {
+	// 	max-height: 2.2rem;
+	// }
+}
+.topbar-child2 .navAfter2:not(:first-child)::before { 
+	content: "//";
+	position: absolute;
+
+	top: 50%;
+	margin-left: -5rem;
+	transform: translateY(-50%);
+}
+
+.topbar-child2 .navAfter2:last-child::before { 
+	content: "" !important;
+}
+
+.topbar-child2 .navAfter2:last-child { 
+	margin-top: -2rem;
+}
+
+
+.dbtn {
+
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.dd {
+	position: relative;
+	display: inline-block;
+}
+
+.ddl {
+	list-style: none;
+	padding: 0;
+}
+
+.ddc {
+	display: none;
+	position: absolute;
+	right: 0;
+	box-shadow: -5px 5px 15px rgba(0,0,0, .16);
+	background-color: #fff;
+	min-width: 160px;
+	
+	z-index: 1;
+}
+
+.ddt {
+	@include font($gs, 1.5rem, $color-dark, 18px);
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.ddc a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+
+	.fa {
+		margin-right: 1rem;
+		color: $color-primary;
+	}
+}
+
+.ddc a:hover {background-color: #f1f1f1}
+
+.dd:hover .ddc {
+	display: block;
+}
+
+
+
+
 
 .lang  {
 
