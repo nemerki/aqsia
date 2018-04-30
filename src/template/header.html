@@ -19,7 +19,7 @@
 
 			<div class="topbar-child2">
 				<a href="#" class="navAfter" title="">virtual mağazınızı qurun</a>
-				<a href="#" class="navAfter" title="">daxil olun</a>
+				<a href="#" class="navAfter" title="" data-toggle="modal" data-target="#loginModal">daxil olun</a>
 				<button type="button" class="navBtn btn btn-outline-primary">MƏHSULLAR</button>
 				
 			</div>
@@ -164,7 +164,7 @@
 
 				<li class="item-topbar-mobile">
 					<a href="#" class="navAfter" title="">virtual mağazınızı qurun</a>
-					<a href="#" class="navAfter" title="">daxil olun</a>
+					<a href="#" class="navAfter" title="" data-toggle="modal" data-target="#loginModal">daxil olun</a>
 					<button type="button" class="navBtn btn btn-outline-primary">MƏHSULLAR</button>
 				</li>
 
@@ -590,5 +590,133 @@
 		</div>
 	</div>
 
+
+	<!-- login Modal -->
+	<div class="modal mymodal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+		<div class="modal-dialog mymodal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content mymodal-content">
+				<div class="modal-header mymodal-header">
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="mymodal__logo">
+						<img src="img/Asqia-logo.png" class="img-fluid" alt="">
+					</div>
+					<p class="mymodal__login-text">Sosial hesablarınızla giriş:</p>
+					<div class="mymodal__social">
+						<div class="mymodal__icon">
+							<svg class="icon" height="30">
+								<use xlink:href="#facebook" />
+							</svg>
+						</div>
+						<div class="mymodal__icon">
+							<svg class="icon" height="30" >
+								<use xlink:href="#google-plus" />
+							</svg>
+						</div>
+					</div>
+					<p class="mymodal__login-text">ve ya</p>
+
+					<form>
+						<div class="input-group input mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text border-0" id="basic-addon1">
+									<svg class="icon" height="30" width="20">
+										<use xlink:href="#user" />
+									</svg>
+								</span>
+							</div>
+							<input type="email" class="form-control border-0" placeholder="e-mail" aria-label="Username" aria-describedby="basic-addon1">
+						</div>
+
+						<div class="input-group input mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text border-0" id="basic-addon1">
+									<svg class="icon" height="30" width="20">
+										<use xlink:href="#lock" />
+									</svg>
+								</span>
+							</div>
+							<input type="password" class="form-control border-0" placeholder="şifrə" aria-label="password" aria-describedby="basic-addon1">
+						</div>
+					</form>
+
+					<a class="mymodal__paslost" href="#" title="">şifrəmi unutdum</a>
+
+
+					<div class="mybtn">
+						<a href="#" class="btn mybtn__btn" title="">Giriş</a>
+					</div>
+					<div class="mybtn">
+						<a href="#" class="mymodal__signup-btn" title=""  data-toggle="modal" data-target="#signupModal">qeydiyyatdan keç</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- signup Modal -->
+	<div class="modal mymodal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalTitle" aria-hidden="true">
+		<div class="modal-dialog mymodal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content mymodal-content">
+				<div class="modal-header mymodal-header">
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="mymodal__logo">
+						<img src="img/Asqia-logo.png" class="img-fluid" alt="">
+					</div>
+					<p class="mymodal__login-text">Sosial hesablarınızla qeydiyyat:</p>
+					<div class="mymodal__social">
+						<div class="mymodal__icon">
+							<svg class="icon" height="30">
+								<use xlink:href="#facebook" />
+							</svg>
+						</div>
+						<div class="mymodal__icon">
+							<svg class="icon" height="30" >
+								<use xlink:href="#google-plus" />
+							</svg>
+						</div>
+					</div>
+					<p class="mymodal__login-text">ve ya</p>
+
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control input" id="name" name="name" placeholder="ad, soyad" required >
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control input" id="email" name="email" placeholder="e-mail" required>
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control input" id="email" name="password" placeholder="şifrə" required>
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control input" id="email" name="repassword" placeholder="şifrəni təkrarla" required>
+						</div>
+					</form>
+
+					<p class="mymodal__terms">Qeydiyyatdan keçməklə <a href="#" title="">Qaydalar və Şərtləri </a> qəbul etmiş olursunuz.</p>
+
+					<div class="mybtn">
+						<button type="submit" class="btn mybtn__btn">Qeydiyyat</button>
+						<!-- <a href="#" class="btn mybtn__btn" title="" >Qeydiyyat</a> -->
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
 </header>
+
+
 

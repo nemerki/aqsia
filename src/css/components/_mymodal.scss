@@ -99,4 +99,59 @@
 		transform: translateY(-50%);
 	}
 
+	&__login-text {
+		@include font($gsl, 1.5rem, $color-dark, 17px);
+		text-align: center;
+		margin: 1.7rem 0;
+	}
+
+	&__social {
+		display: flex;
+	}
+
+	&__icon {
+		height: 5rem;
+		box-shadow: 5px 5px 15px rgba(0,0,0, .16);
+		display: flex;
+		align-items: center;
+		margin: .5rem;
+		cursor: pointer;
+		width: 50%;  
+
+		&:hover {
+			transform: scale(1.05) translateY(-3px);
+			transform-origin: center;
+		}
+	}
+
+
+	.input-group-text {
+		background-color: #fff !important;
+	}
+
+	&__paslost {
+		@include font($gsli, 1.5rem, $color-dark, 17px);
+
+		&:hover {
+			text-decoration: none;
+			color: $color-primary;
+		}
+	}
+
+	&__signup-btn {
+		@include font($gsi, 2rem, $color-dark, 23px);
+
+		&:hover {
+			text-decoration: none;
+			color: $color-primary;
+		}
+	}
+
+	&__terms {
+		@include font($gsli, 1.5rem, $color-dark, 17px);
+		text-align: center;
+		margin: 2rem 0;
+	}
+
+
 }
