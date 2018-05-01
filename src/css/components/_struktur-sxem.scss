@@ -1,0 +1,89 @@
+.struktur-sxemi {
+
+	.table {
+		&__ic{
+			margin-left: 3rem;
+			border-left: 2px dashed $color-primary;
+
+			td {
+				padding-bottom: 0;
+				&::before {
+					content: "\f105";
+					font: normal normal normal 14px/1 FontAwesome;
+					position: relative;
+					left: -119px;
+					top: 31px;
+					font-size: 2rem;
+					color: $color-primary;
+				}
+			}
+		}
+	}
+
+	.tbody tr:not(:first-child) {
+
+
+	}
+
+	.table tr {
+		text-align: center;
+	}
+
+	.table td {
+		border-top: 0;
+		display: inline-block;
+	}
+
+	.tdp {
+		border: 1px solid #DBDBDB;
+		background-color: #fff;
+		width: 216px;
+		height: 38px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		@include font($gs, 1.6rem, $color-dark, 19px);
+
+
+	}
+
+	.u {
+		&::before {
+			content: "\f107";
+			font: normal normal normal 14px/1 FontAwesome;
+			position: relative;
+			
+			font-size: 2rem;
+			color: $color-primary;
+		}
+	}
+	.us {
+		margin-left: 1rem;
+		&::before {
+			content: "\f104";
+			font: normal normal normal 14px/1 FontAwesome;
+			position: relative;
+			left: -119px;
+			top: 31px;
+			font-size: 2rem;
+			color: $color-primary
+		}
+	}
+
+	.uleft {
+		margin-left: 231px;
+	}
+	.trline {
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			width: 566px;
+			height: 5px;
+			border-bottom: 2px dashed $color-primary;
+			left: 32%;
+		}
+	}
+
+}

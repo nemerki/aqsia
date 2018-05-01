@@ -52,7 +52,7 @@
      ===========================================================*/
      var posWrapHeader = $('.topbar').height();
      var posWrapHeader2 = $('.logoCenter').height();
-     var toplam = posWrapHeader + posWrapHeader2;
+     var toplam = posWrapHeader + posWrapHeader2-1;
      var header = $('.container-menu-header');
 
      $(window).on('scroll',function(){

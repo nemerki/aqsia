@@ -93,7 +93,7 @@ $(document).ready(function() {
      ===========================================================*/
      var posWrapHeader = $('.topbar').height();
      var posWrapHeader2 = $('.logoCenter').height();
-     var toplam = posWrapHeader + posWrapHeader2;
+     var toplam = posWrapHeader + posWrapHeader2-1;
      var header = $('.container-menu-header');
 
      $(window).on('scroll',function(){
@@ -349,6 +349,39 @@ $('.index-slide__right-carusel').owlCarousel({
 	autoplay:true
 
 })
+
+(function($) {
+  $(function() {
+   var ds = {
+     'name': 'Lao Lao',
+     'title': 'general manager',
+     'children': [
+     { 'name': 'Bo Miao', 'title': 'department manager' },
+     { 'name': 'Su Miao', 'title': 'department manager',
+     'children': [
+     { 'name': 'Tie Hua', 'title': 'senior engineer' },
+     { 'name': 'Hei Hei', 'title': 'senior engineer',
+     'children': [
+     { 'name': 'Pang Pang', 'title': 'engineer' },
+     { 'name': 'Xiang Xiang', 'title': 'UE engineer' }
+     ]
+   }
+   ]
+ },
+ { 'name': 'Hong Miao', 'title': 'department manager' },
+ { 'name': 'Chun Miao', 'title': 'department manager' }
+ ]
+};
+
+var oc = $('#chart-container').orgchart({
+  'data' : ds,
+  'depth': 2,
+  'nodeContent': 'title'
+});
+
+});
+})(jQuery);
+
 $(document).ready(function() {
     $(".uzvluk-anketi__send").click(function() {
       swal("Sorğunuz uğurla göndərildi!", "Müraciətiniz üçün təşəkkür edirik!", "success", {
