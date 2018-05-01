@@ -117,11 +117,31 @@
 		margin: .5rem;
 		cursor: pointer;
 		width: 50%;  
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.fa {
+			font-size: 3rem;
+		}
+
+		.fa-facebook {
+			color: #3B5998;
+		}
+
+		.fa-google-plus {
+			color: #F34A38;
+		}
 
 		&:hover {
 			transform: scale(1.05) translateY(-3px);
 			transform-origin: center;
 		}
+	}
+
+	.fa-user, .fa-lock {
+		font-size: 2rem;
+		color: #1B75BC;
 	}
 
 

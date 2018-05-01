@@ -533,7 +533,20 @@ body {
           align-items: center;
   margin: .5rem;
   cursor: pointer;
-  width: 50%; }
+  width: 50%;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .mymodal__icon .fa {
+    font-size: 3rem; }
+  .mymodal__icon .fa-facebook {
+    color: #3B5998; }
+  .mymodal__icon .fa-google-plus {
+    color: #F34A38; }
   .mymodal__icon:hover {
     -webkit-transform: scale(1.05) translateY(-3px);
        -moz-transform: scale(1.05) translateY(-3px);
@@ -545,6 +558,10 @@ body {
         -ms-transform-origin: center;
          -o-transform-origin: center;
             transform-origin: center; }
+
+.mymodal .fa-user, .mymodal .fa-lock {
+  font-size: 2rem;
+  color: #1B75BC; }
 
 .mymodal .input-group-text {
   background-color: #fff !important; }
