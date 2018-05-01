@@ -703,6 +703,7 @@ li.sale-noti > a {
 .dd {
 	position: relative;
 	display: inline-block;
+
 }
 
 .ddl {
@@ -717,20 +718,23 @@ li.sale-noti > a {
 	box-shadow: -5px 5px 15px rgba(0,0,0, .16);
 	background-color: #fff;
 	min-width: 160px;
-	
+	padding: 1.3rem;
 	z-index: 1;
+
 }
 
 .ddt {
 	@include font($gs, 1.5rem, $color-dark, 18px);
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
 
+.ddlink {
+	@include font($gs, 1.5rem, $color-dark, 25px);
+}
+
 .ddc a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
+	
 	display: block;
 	text-align: left;
 
