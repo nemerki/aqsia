@@ -1,16 +1,22 @@
-$(function() {
-  $( "#datepicker" ).datepicker({ firstDay: 1, minDate: 0 });
+
+$(document).ready(function() {
+	 $( "#datepicker" ).datepicker({ firstDay: 1, minDate: 0 });
 });
+
 
 // minDate = unselected days before current day
 // delete ", minDate: 0" for all days
 $(document).ready(function() {
 	
 });
+$(document).ready(function() {
+    
+
+
   // When the window has finished loading create our google map below
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
+  google.maps.event.addDomListener(window, 'load', init);
+  
+  function init() {
                 // Basic options for a simple Google Map
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
                 var mapOptions = {
@@ -39,6 +45,9 @@ $(document).ready(function() {
                     title: 'Snazzy!'
                 });
             }
+
+        });
+
 
 (function ($) {
 
@@ -198,80 +207,24 @@ $(document).ready(function() {
     
 
 })(jQuery);
-//  $('.slider-single').slick({
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-//   arrows: true,
-//   fade: false,
-//   adaptiveHeight: true,
-//   infinite: false,
-//   useTransform: true,
-//   speed: 400,
-//   cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
-// });
+$(document).ready(function() {
+  
+  $('.slider-single').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
 
-//  $('.slider-nav')
-//  .on('init', function(event, slick) {
-//   $('.slider-nav .slick-slide.slick-current').addClass('is-active');
-// })
-//  .slick({
-//   slidesToShow: 4,
-//   slidesToScroll: 1,
-//   dots: false,
-//   focusOnSelect: false,
-//   infinite: false,
-//   responsive: [{
-//     breakpoint: 1024,
-//     settings: {
-//       slidesToShow: 5,
-//       slidesToScroll: 5,
-//     }
-//   }, {
-//     breakpoint: 640,
-//     settings: {
-//       slidesToShow: 4,
-//       slidesToScroll: 4,
-//     }
-//   }, {
-//     breakpoint: 420,
-//     settings: {
-//       slidesToShow: 3,
-//       slidesToScroll: 3,
-//     }
-//   }]
-// });
-
-//  $('.slider-single').on('afterChange', function(event, slick, currentSlide) {
-//   $('.slider-nav').slick('slickGoTo', currentSlide);
-//   var currrentNavSlideElem = '.slider-nav .slick-slide[data-slick-index="' + currentSlide + '"]';
-//   $('.slider-nav .slick-slide.is-active').removeClass('is-active');
-//   $(currrentNavSlideElem).addClass('is-active');
-// });
-
-//  $('.slider-nav').on('click', '.slick-slide', function(event) {
-//   event.preventDefault();
-//   var goToSingleSlide = $(this).data('slick-index');
-
-//   $('.slider-single').slick('slickGoTo', goToSingleSlide);
-// });
-
-
-$('.slider-single').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-
-});
-$('.slider-nav').slick({
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  asNavFor: '.slider-single',
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    asNavFor: '.slider-single',
   // centerMode: true,
   focusOnSelect: true,
-   responsive: [
-     {
+  responsive: [
+  {
     breakpoint: 1360,
     settings: {
       slidesToShow: 4,
@@ -291,97 +244,69 @@ $('.slider-nav').slick({
 
 
 
+});
 
 
-$('.olke-daxilindeic-img__carusel').owlCarousel({
-	loop:true,
-	nav:true,
-	items:1,
-	dots:false,
-	autoplay:true
-})
+$(document).ready(function() {
+
+	$('.olke-daxilindeic-img__carusel').owlCarousel({
+		loop:true,
+		nav:true,
+		items:1,
+		dots:false,
+		autoplay:true
+	})
 
 
-$('.uzvluk-qaydalari__carusel').owlCarousel({
-	loop:true,
-	items:1,
-	autoplay:true
-})
+	$('.uzvluk-qaydalari__carusel').owlCarousel({
+		loop:true,
+		items:1,
+		autoplay:true
+	})
 
-$('.secilmis-mehsullar__carusel').owlCarousel({
-	loop:true,
-	items:4,
-	autoplay:true,
-	margin: 24,
-	dots: false,
+	$('.secilmis-mehsullar__carusel').owlCarousel({
+		loop:true,
+		items:4,
+		autoplay:true,
+		margin: 24,
+		dots: false,
 
-	responsive:{
-		0:{
-			items:1,
-			nav:false
-		},
+		responsive:{
+			0:{
+				items:1,
+				nav:false
+			},
 
-		578:{
-			items:2,
-			nav:false
-		},
-		768:{
-			items:3,
-			loop:false
-		},
-		992:{
-			items:4,
-			loop:false
+			578:{
+				items:2,
+				nav:false
+			},
+			768:{
+				items:3,
+				loop:false
+			},
+			992:{
+				items:4,
+				loop:false
+			}
 		}
-	}
-})
+	})
 
-$('.index-slide__left-carusel').owlCarousel({
-	loop:true,
-	items:1,
-	autoplay:true
-})
+	$('.index-slide__left-carusel').owlCarousel({
+		loop:true,
+		items:1,
+		autoplay:true
+	})
 
-$('.index-slide__right-carusel').owlCarousel({
-	loop:true,
-	items:1,
-	nav:true,
-	autoplay:true
+	$('.index-slide__right-carusel').owlCarousel({
+		loop:true,
+		items:1,
+		nav:true,
+		autoplay:true
 
-})
-
-(function($) {
-  $(function() {
-   var ds = {
-     'name': 'Lao Lao',
-     'title': 'general manager',
-     'children': [
-     { 'name': 'Bo Miao', 'title': 'department manager' },
-     { 'name': 'Su Miao', 'title': 'department manager',
-     'children': [
-     { 'name': 'Tie Hua', 'title': 'senior engineer' },
-     { 'name': 'Hei Hei', 'title': 'senior engineer',
-     'children': [
-     { 'name': 'Pang Pang', 'title': 'engineer' },
-     { 'name': 'Xiang Xiang', 'title': 'UE engineer' }
-     ]
-   }
-   ]
- },
- { 'name': 'Hong Miao', 'title': 'department manager' },
- { 'name': 'Chun Miao', 'title': 'department manager' }
- ]
-};
-
-var oc = $('#chart-container').orgchart({
-  'data' : ds,
-  'depth': 2,
-  'nodeContent': 'title'
+	})
+	
 });
-
-});
-})(jQuery);
-
 $(document).ready(function() {
     $(".uzvluk-anketi__send").click(function() {
       swal("Sorğunuz uğurla göndərildi!", "Müraciətiniz üçün təşəkkür edirik!", "success", {

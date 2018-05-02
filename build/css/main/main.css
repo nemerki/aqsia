@@ -354,7 +354,7 @@ body {
        background-size: auto, 100%; }
   @media (min-width: 993px) {
     .page-bg {
-      margin-top: 8rem; } }
+      margin-top: 11rem; } }
 
 .page-top {
   display: -webkit-box;
@@ -971,7 +971,7 @@ body {
     width: 566px;
     height: 5px;
     border-bottom: 2px dashed #1B75BC;
-    left: 32%; }
+    margin-left: 137px; }
 
 .footer {
   border-top: 2px solid #E2E2E2; }
