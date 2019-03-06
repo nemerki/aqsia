@@ -1,5 +1,17 @@
 # Aqsia
 
+### Installation
+Proyekti clone edtdikden sonra teminalı proyekt içinde açıb sırası ile aşağıdakı komandaları yazmaq lazımdır (node bower ve gulp kompiterde yiklü deyilse ilk olaraq bu üçü yüklenmelidir)
+```shell
+npm install
+```
+```shell
+bower install
+```
+```shell
+gulp
+```
+
 ### Development terefinde istifade olunanlar
 #### GULP
 #### SASS
@@ -32,13 +44,13 @@ bu klasör içerisinde  html5boilerplate sıfırlaması funksiyalar mixinler ve 
 
 bu klasörde temel bezi css dosyaları olur fontlar bu klasörde font dosyasında import edilir
 
-### /component
+### /components
 Bu klasörde saytın birçox yerinde istifade olan elementler olur modal kimi pagination kimi komponentler yazıb her yerde rahatlıqla işledirik
 
 ### /layout
 Burda footer header navigation kimi layoutları tuturuq
 
-### /page
+### /pages
 Bu klasörde de her seyfeye aid bir css dosyası oluşdururuq her seyfeye aid css deyişikliklerini burda eleyirk 
 
 
