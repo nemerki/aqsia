@@ -1,17 +1,5 @@
 # Aqsia
 
-### Installation
-Proyekti clone edtdikden sonra teminalı proyekt içinde açıb sırası ile aşağıdakı komandaları yazmaq lazımdır (node bower ve gulp kompiterde yiklü deyilse ilk olaraq bu üçü yüklenmelidir)
-```shell
-npm install
-```
-```shell
-bower install
-```
-```shell
-gulp
-```
-
 ### Development terefinde istifade olunanlar
 #### GULP
 #### SASS
